@@ -38,7 +38,6 @@ jobs:
         source: https://github.com/swinton/screenshot-website
         destination: screenshot-${{ matrix.os }}-${{ matrix.width }}.png
         width: ${{ matrix.width }}
-        path: screenshot-${{ matrix.os }}-${{ matrix.width }}.png
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
