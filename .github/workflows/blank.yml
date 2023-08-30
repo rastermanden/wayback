@@ -36,7 +36,7 @@ jobs:
       uses: swinton/screenshot-website@v1.x
       with:
         source: https://github.com/swinton/screenshot-website
-        path: screenshot-${{ matrix.os }}-${{ matrix.width }}.png
+        destination: screenshot-${{ matrix.os }}-${{ matrix.width }}.png
         width: ${{ matrix.width }}
     - name: Commit and push if it changed
       run: |-
