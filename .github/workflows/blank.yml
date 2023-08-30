@@ -22,27 +22,20 @@ jobs:
         timestamp=$(date -u)
         git commit -m "Feed opdateret: ${timestamp}" || exit 0
         git push
-  screenshot:
-    name: Screenshot
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        width: [1200, 992, 768, 600]
-    runs-on: ${{ matrix.os }}
+  scheduled2:
+    runs-on: ubuntu-latest
+    container: nevermendel/chrome-headless-screenshots 
     steps:
     - name: Check out this repo
       uses: actions/checkout@v2
-    - name: Screenshot Website
-      uses: swinton/screenshot-website@v1.x
-      with:
-        source: https://github.com/swinton/screenshot-website
-        destination: screenshot-${{ matrix.os }}-${{ matrix.width }}.png
-        width: ${{ matrix.width }}
+    - name: Fetch latest data
+      run:  index.js https://github.com        
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
         git config user.email "actions@users.noreply.github.com"
         git add -A
         timestamp=$(date -u)
-        git commit -m "Screenshot opdateret: ${timestamp}" || exit 0
+        git commit -m "Feed opdateret: ${timestamp}" || exit 0
+        git pushmit -m "Screenshot opdateret: ${timestamp}" || exit 0
         git push
