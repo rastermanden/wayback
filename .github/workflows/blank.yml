@@ -27,7 +27,7 @@ jobs:
     container: nevermendel/chrome-headless-screenshots 
     steps:
     - name: Check out this repo
-      uses: actions/checkout@v1
+      uses: actions/checkout@v2
     - name: Fetch latest data
       run:  take-screenshot.sh https://github.com
     - name: Install git
