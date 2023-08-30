@@ -22,7 +22,7 @@ jobs:
         timestamp=$(date -u)
         git commit -m "Feed opdateret: ${timestamp}" || exit 0
         git push
-  scheduled2:
+  screenhsot:
     runs-on: ubuntu-latest
     container: nevermendel/chrome-headless-screenshots 
     steps:
@@ -31,7 +31,7 @@ jobs:
     - name: Fetch latest data
       run:  take-screenshot.sh https://github.com
     - name: Install xmllint
-      run: sudo apt-get install -y git
+      run: apt-get install -y git
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
