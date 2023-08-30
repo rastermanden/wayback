@@ -30,6 +30,8 @@ jobs:
         width: [1200, 992, 768, 600]
     runs-on: ${{ matrix.os }}
     steps:
+    - name: Check out this repo
+      uses: actions/checkout@v2
     - name: Screenshot Website
       uses: swinton/screenshot-website@v1.x
       with:
