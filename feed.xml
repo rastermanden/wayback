@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title
+    type="text">Service Messages</title>
+  <subtitle
+    type="text"></subtitle>
+  <id>serviceMessages</id>
+  <updated>2023-08-29T12:25:34Z</updated>
+  <entry>
+    <id>29508</id>
+    <title
+      type="text">FME filudtræk lukker - Har du skiftet til Hangfire?</title>
+    <updated>2023-07-12T09:17:49Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/29508" />
+    <content
+      type="text">Besked: FME filudtræk lukker - Har du skiftet til Hangfire?
+
+04.07.2023: Filudtræk fra BBR og VUR vil først blive udfaset efter transitionen til ny leverandør den 4. september 2023.
+
+27.06.2023: Bemærk når vi lukker, modtager du en mail fra Datafordeleren med for eksempel "Dit abonnement EJFfortroligTotal_kah er blevet midlertidigt blokeret". Det betyder blot, at abonnementet er blevet deaktiveret.
+
+27.06.2023: DAR filudtræk fra FME lukker dags dato.
+
+Vi lukker den 23. juni 2023 for de filudtræk, som bliver leveret via FME service i JSON-og XML-formater. Det fremgår ikke af filnavnet, at de er leveret via FME.
+
+Data fra filudtræk er tilgængelige via Hangfire service, og det fremgår af filnavnet, at de bliver leveret via Hangfire. Filnavnet er tilføjet "_HF". Modtager du ikke dine filudtræk som forventet, skal du tjekke filnavn på det sidste, du har modtaget. Mangler tilføjelsen "_HF", skal du oprette nyt abonnement.
+
+Fredag den 23. juni 2023 bliver filudtræk via FME på BBR, DAR, EBR, EJF, SVR og VUR lukket.
+
+Læs mere om ændringen under Ændringer&#xD;
+Register: Bygnings- og Boligregisteret (BBR), Danmarks Adresseregister (DAR), Ejendomsbeliggenhedsregisteret (EBR), Ejendomsvurdering (VUR), Ejerfortegnelsen (EJF), Skatteforvaltningens Virksomhedsregister (SVR)&#xD;
+Service: Filudtræk&#xD;
+Status: I gang&#xD;
+Sagsreference: 29508&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>27373</id>
+    <title
+      type="text">Overgang fra OCES2 til OCES3 certifikater på Datafordeleren</title>
+    <updated>2023-08-18T08:34:23Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/27373" />
+    <content
+      type="text">Besked: Overgang fra OCES2 til OCES3 certifikater på Datafordeleren.
+
+Det berører tjenestebrugeres anvendelse af FOCES og VOCES på Datafordeleren. Bemærk: Udfasning af OCES2 læs mere her https://www.mitid-erhverv.dk/avanceret/certifikater/
+
+ 
+
+ 
+
+ 
+
+ &#xD;
+Register: Alle&#xD;
+Service: Webservice&#xD;
+Status: I gang&#xD;
+Sagsreference: 27373&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>28543</id>
+    <title
+      type="text">Matriklen2 åbnet på Datafordeleren</title>
+    <updated>2023-06-15T10:29:51Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/28543" />
+    <content
+      type="text">Besked: Matriklen2 åbnet på Datafordeleren
+
+Der er åbnet en version af Matriklen2 fra Geodatastyrelsen på Datafordeleren torsdag den 15. juni 2023. 
+
+Der er paralleldrift mellem Matriklen2 og de eksisterende tjenester fra Matriklen frem til den 15. december 2023. Herefter lukker de eksisterende tjenester i Matriklen, og Matriklen2 fortsætter.
+
+Dataopdateringen for Matriklen2 og Matriklen er planlagt til synkron opdatering.
+
+Matriklen2 indeholder en modelændring, som retter op på fejl og en række uhensigtsmæssigheder, samt tilføjer data med stedfæstelse af bygning på fremmed grund.
+
+Der er fundet følgende fejl i forbindelse med lanceringen af det nye register. Fejlene forventes rettet efter transitionen til ny leverandør af Datafordeleren.
+
+	Dataopdateringen på Matriklen2 kører langsommere i produktionsmiljøet end for Matriklen. Data er derfor ikke synkrone mellem de to registres tjenester. Der arbejdes på at løse problemet med langsom dataopdatering for Matriklen2.
+
+
+
+
+
+	Det kommunale prædefinerede filudtræk MATkortdataGaeldendeKommuneComplete endnu ikke er implementeret pga. en fejl.
+
+
+
+
+
+	Hændelser for Bygning På Fremmed Grund Punkt udsendes ikke
+
+
+
+
+
+	Matriklen2: Ingen data på Test06
+
+
+
+Læs mere om Matriklen2 i dokumentationen: https://confluence.sdfi.dk/x/LQAGBg&#xD;
+Register: Matriklen (MAT)&#xD;
+Service: Webservice, Filudtræk, Hændelser&#xD;
+Status: I gang&#xD;
+Sagsreference: 28543&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>29858</id>
+    <title
+      type="text">Skærmkortet for juli 2023 er opdateret. Næste opdatering planlægges til september 2023.</title>
+    <updated>2023-07-13T11:29:06Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/29858" />
+    <content
+      type="text">Besked: Skærmkortet for juli 2023 er opdateret. Næste opdatering planlægges til september 2023.&#xD;
+Register: Skærmkortet&#xD;
+Status: I gang&#xD;
+Sagsreference: 29858&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>30045</id>
+    <title
+      type="text">Skift af certifikater til PUSH abonnement på hændelser i forbindelse med transition 2023</title>
+    <updated>2023-08-16T08:53:48Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/30045" />
+    <content
+      type="text">Besked: Skift af certifikater til PUSH abonnement på hændelser i forbindelse med transition 2023
+
+Certifikater til at modtage hændelser i produktion på Datafordeleren bliver skiftet i forbindelse med transitionen i september 2023.
+De nye certifikater er gældende fra den 3. september 2023.
+Vær opmærksom på først at skifte certifikatet til PROD efter den 31. august 2023.
+Du kan hente de nye certifikater på https://confluence.sdfi.dk/x/LoBQAQ
+
+Læs om transition af Datafordeleren på https://datafordeler.dk/transition&#xD;
+Register: Alle&#xD;
+Service: Hændelser&#xD;
+Status: I gang&#xD;
+Sagsreference: 30045&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>29901</id>
+    <title
+      type="text">TEST04 servicevindue fra onsdag den 16. august til den 08. september</title>
+    <updated>2023-08-18T07:05:09Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/29901" />
+    <content
+      type="text">Besked: TEST04 servicevindue fra onsdag den 16. august til den 08. september
+
+Som led i transition af Datafordeleren vil de enkelte miljøer være under servicevindue. Læs mere om transitionen: https://datafordeler.dk/transition
+
+Følgende vil ikke være tilgængeligt på Test04 miljøet:
+
+	Selvbetjeningsportalen og administrationsportalen vil være lukket.
+	Filudtræk vil ikke blive genereret i perioden, mails bliver ikke sendt.
+	Dataopdateringer og generering af hændelser vil være stoppet i dele af perioden.
+
+
+
+Miljøet vil være tilgængeligt igen med hændelser fra den 25. august, men uden portaler.&#xD;
+Register: Alle&#xD;
+Service: Filudtræk, Hændelser, Dataopdatering, Selvbetjening&#xD;
+Status: I gang&#xD;
+Sagsreference: 29901&#xD;
+Periode start: 01-01-0001 00:00:00&#xD;
+Periode slut: 01-01-0001 00:00:00&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>29900</id>
+    <title
+      type="text">TEST06 servicevindue fra torsdag den 10. august til den 08. september</title>
+    <updated>2023-08-18T07:05:14Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/29900" />
+    <content
+      type="text">Besked: TEST06 servicevindue fra torsdag den 10. august til den 08. september
+
+Som led i transition af Datafordeleren vil de enkelte miljøer være under servicevindue. Læs mere om transitionen: https://datafordeler.dk/transition
+
+Følgende vil ikke være tilgængeligt på Test06 miljøet:
+
+	Selvbetjeningsportalen og administrationsportalen vil være lukket.
+	Filudtræk vil ikke blive genereret i perioden, mails bliver ikke sendt.
+	Dataopdateringer og generering af hændelser vil være stoppet i dele af perioden.
+
+
+
+Miljøet vil være tilgængeligt igen med hændelser fra den 21. august, men uden portaler.&#xD;
+Register: Alle&#xD;
+Service: Filudtræk, Hændelser, Dataopdatering, Selvbetjening&#xD;
+Status: I gang&#xD;
+Sagsreference: 29900&#xD;
+Periode start: 10-08-2023 08:00:00&#xD;
+Periode slut: 08-09-2023 04:00:00&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>29970</id>
+    <title
+      type="text">DAF Prod servicevindue fra mandag den 28. august til den 08. september</title>
+    <updated>2023-08-28T08:24:16Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/29970" />
+    <content
+      type="text">Besked: Datafordeler Prod servicevindue fra mandag den 28. august til den 08. september
+
+Som led i transition af Datafordeleren vil de enkelte miljøer være under servicevindue. Læs mere om transitionen: https://datafordeler.dk/transition
+
+Følgende vil ikke være tilgængeligt på DAF Prod miljøet:
+
+	Selvbetjeningsportalen og administrationsportalen vil være lukket.
+	Datafordeler.dk er lukket for at logge på Datafordeleren.
+	Filudtræk vil ikke blive genereret i perioden, mails bliver ikke sendt.
+	Dataopdateringer og generering af hændelser vil være stoppet i dele af perioden
+
+
+
+Miljøet vil være tilgængeligt igen med hændelser fra den 04. september, men uden portaler.&#xD;
+Register: Alle&#xD;
+Service: Filudtræk, Hændelser, Dataopdatering, Selvbetjening&#xD;
+Status: I gang&#xD;
+Sagsreference: 29970&#xD;
+Periode start: 01-01-0001 00:00:00&#xD;
+Periode slut: 01-01-0001 00:00:00&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>29969</id>
+    <title
+      type="text">TEST03 servicevindue fra tirsdag den 22. august til den 08. september</title>
+    <updated>2023-08-29T07:09:31Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/29969" />
+    <content
+      type="text">Besked: TEST03 servicevindue fra tirsdag den 22. august til den 08. september
+
+Som led i transition af Datafordeleren vil de enkelte miljøer være under servicevindue. Læs mere om transitionen: https://datafordeler.dk/transition
+
+Følgende vil ikke være tilgængeligt på Test03 miljøet:
+
+	Selvbetjeningsportalen og administrationsportalen vil være lukket.
+	Filudtræk vil ikke blive genereret i perioden, mails bliver ikke sendt.
+	Dataopdateringer og generering af hændelser vil være stoppet i dele af perioden
+
+
+
+Miljøet vil være tilgængeligt igen med hændelser fra den 31. august, men uden portaler.&#xD;
+Register: Alle&#xD;
+Service: Filudtræk, Hændelser, Dataopdatering, Selvbetjening&#xD;
+Status: I gang&#xD;
+Sagsreference: 29969&#xD;
+Periode start: 01-01-0001 00:00:00&#xD;
+Periode slut: 01-01-0001 00:00:00&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>28408</id>
+    <title
+      type="text">Kommunevise landsdækkende Matrikelkort i GeoPackage format opdateres ikke</title>
+    <updated>2023-08-25T08:24:08Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/28408" />
+    <content
+      type="text">Besked: Kommunevise landsdækkende Matrikelkort i GeoPackage format opdateres ikke
+
+25-08-2023: Der arbejdes fortsat på at få løst problemet.
+
+06-06-2023: Kommunevise landsdækkende Matrikelkort i GeoPackage format opdateres ikke.&#xD;
+Register: Matriklen (MAT)&#xD;
+Service: Filudtræk&#xD;
+Status: I gang&#xD;
+Sagsreference: 28408&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>28524</id>
+    <title
+      type="text">Fejl i DHM prædefinerede filudtræk</title>
+    <updated>2023-08-25T08:24:31Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/28524" />
+    <content
+      type="text">Besked: Fejl i DHM prædefinerede filudtræk
+
+25.08.2023: Der arbejdets forsat på at løse problemet.
+
+Aktuelt optræder der dog en fejl i de prædefinerede filudtræk som består i, at filudtrækket bliver dannet som en korrupt komprimeringsfil. Dette arbejdes der på at løse og en ny status følger.&#xD;
+Register: Danmarks Højdemodel&#xD;
+Service: Filudtræk&#xD;
+Status: I gang&#xD;
+Sagsreference: 28524&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>30225</id>
+    <title
+      type="text">Test04: Fejl i adgang til tjenester med certifikat</title>
+    <updated>2023-08-29T12:25:34Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/30225" />
+    <content
+      type="text">Besked: Test04: Fejl i adgang til tjenester med certifikat
+
+14:20 Fejlen er løst.
+
+Efter transitionen af Test04 er der en fejl ved kald til tjenester med certifikat (CPR).
+
+Vi arbejder på at løse fejlen.&#xD;
+Register: Det Centrale Personregister (CPR)&#xD;
+Service: Webservice&#xD;
+Status: Løst&#xD;
+Sagsreference: 30225&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>30227</id>
+    <title
+      type="text">Datafordeler nedbrud</title>
+    <updated>2023-08-29T09:22:13Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/30227" />
+    <content
+      type="text">Besked: Man kan i øjeblikket opleve utilgængelighed på alle webservice og hændelser på Datafordeler produktions miljø
+
+29.08.2023 klokken 11:15: Problemet er blevet løst. Webservices og hændelser er tilbage i normal drift.
+
+29.08.2023 klokken 10:00: Der arbejdes med høj prioritet for at få driftsforstyrrelsen løst.&#xD;
+Register: Alle&#xD;
+Service: Webservice, Hændelser&#xD;
+Status: Løst&#xD;
+Sagsreference: 30227&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>29831</id>
+    <title
+      type="text">Fejl i nogle HF tjenester med tomme værdier.</title>
+    <updated>2023-08-25T08:24:20Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/29831" />
+    <content
+      type="text">Besked: Fejl i nogle HF tjenester med tomme værdier.
+
+Man kan i øjeblikket opleve null værdier i nogle json filer for EJF,MAT,EBR
+
+25.08.2023: Der arbejdets på at løse problemet.&#xD;
+Register: Ejendomsbeliggenhedsregisteret (EBR), Ejerfortegnelsen (EJF), Matriklen (MAT)&#xD;
+Service: Filudtræk&#xD;
+Status: I gang&#xD;
+Sagsreference: 29831&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>29755</id>
+    <title
+      type="text">Det prædefinerede GeoDanmark60_SHP filudtræk er ikke blevet leveret</title>
+    <updated>2023-08-25T08:23:56Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/29755" />
+    <content
+      type="text">Besked: Det prædefinerede GeoDanmark60_SHP filudtræk er ikke blevet leveret
+
+Det prædefinerede GeoDanmark60_SHP filudtræk er ikke blevet leveret og seneste leverance er fra 03.06.2023.
+
+25.08.2023: Der arbejdets på at løse problemet&#xD;
+Register: GeoDanmark Vektor&#xD;
+Service: Filudtræk&#xD;
+Status: I gang&#xD;
+Sagsreference: 29755&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>30025</id>
+    <title
+      type="text">Download af filudtræk fejler på datafordeler.dk</title>
+    <updated>2023-08-21T12:52:21Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/30025" />
+    <content
+      type="text">Besked: 21.08.2023 Download af filudtræk virker igen på datafordeler.dk.
+
+Det er ikke muligt at downloade brugerdefinerede filudtræk direkte fra datafordeler.dk. Vi er i gang med at finde fejlen og fjerne den. Brug i stedet selfservice.datafordeler.dk.&#xD;
+Register: Bygnings- og Boligregisteret (BBR), Danmarks Adresseregister (DAR), Danmarks Højdemodel, Ejendomsvurdering (VUR), Ejerfortegnelsen (EJF), Matriklen (MAT), Skærmkortet&#xD;
+Service: Filudtræk&#xD;
+Status: Løst&#xD;
+Sagsreference: 30025&#xD;
+</content>
+  </entry>
+</feed>
