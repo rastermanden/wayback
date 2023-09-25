@@ -209,26 +209,6 @@ Sagsreference: 28524&#xD;
 </content>
   </entry>
   <entry>
-    <id>44294</id>
-    <title
-      type="text">Admin.datafordeler.dk er utilgængelig</title>
-    <updated>2023-09-14T08:48:08Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/44294" />
-    <content
-      type="text">Besked: Admin.datafordeler.dk er utilgængelig
-
-14.09.2023 klokken 10:45: Problemet er løst. admin.datafordeler.dk er tilgængelig igen.
-
-12.09.2023 klokken 10:15: Man kan i øjeblikket opleve utilgængelighed på admin.datafordeler.dk. Der arbejdes med høj prioritet for at få fejlen løst.&#xD;
-Register: Alle&#xD;
-Service: Selvbetjening&#xD;
-Status: Løst&#xD;
-Sagsreference: 44294&#xD;
-</content>
-  </entry>
-  <entry>
     <id>29831</id>
     <title
       type="text">Fejl i nogle HF tjenester med tomme værdier.</title>
@@ -289,40 +269,6 @@ Sagsreference: 44577&#xD;
 </content>
   </entry>
   <entry>
-    <id>44297</id>
-    <title
-      type="text">Man kan i øjeblikket opleve lange svartider på enkelte webservices</title>
-    <updated>2023-09-19T07:38:16Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/44297" />
-    <content
-      type="text">Besked: Man kan i øjeblikket opleve lange svartider på enkelte webservices
-
-13.09.2023 klokken 16:00: Svartiderne er normaliseret på alle de webbaseret tjenester.
-
-13.09.2023 klokken 13:15: Man kan i øjeblikket opleve lange svartider og / eller time out ved forespørgsler på alle de webbaseret tjenester. 
-
-12.09.2023 klokken 10:45: Følgende webservice har i øjeblikket længere svartider. Der bliver fortsat arbejdet med høj prioritet på en løsning:
-
-	GeoDanmark Ortofoto forår WMS
-	DHM WMS (Terræn)
-	DHM 2015 Historik - WMS
-	DTK25, DTK250, DTK500, DTK1000
-	Historiske DTK50, DTK100, DTK200
-
-
-
-08.09.2023 klokken 16:00: Længere svartider kan forekomme på webservices hvilket der fortsat arbejdes på at løse og har høj prioritet.
-
-07.09.2023 klokken 16:30: Der vil fortsat kunne forekomme længere svartider på kald til alle webservices. Et arbejde pågår for at løse dette og har høj prioritet.&#xD;
-Register: Alle&#xD;
-Service: Webservice&#xD;
-Status: Løst&#xD;
-Sagsreference: 44297&#xD;
-</content>
-  </entry>
-  <entry>
     <id>44556</id>
     <title
       type="text">MAT2 Dataopdatering er stoppet i produktionsmiljøet.</title>
@@ -342,50 +288,6 @@ Register: Matriklen (MAT)&#xD;
 Service: Dataopdatering&#xD;
 Status: I gang&#xD;
 Sagsreference: 44556&#xD;
-</content>
-  </entry>
-  <entry>
-    <id>44225</id>
-    <title
-      type="text">Den normale dataindlæsning af CPR data ikke gennemført.</title>
-    <updated>2023-09-11T08:20:32Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/44225" />
-    <content
-      type="text">Besked: Dataindlæsningen af CPR data natten til fredag d. 8. september 2023 blev ikke gennemført
-
-11.09.2023 klokken 10:00: Problemet er løst og CPR dataopdatering er tilbage i normal drift.
-
-08.09.2023 klokken 16:15: Der arbejdes på at løse problemet således at den manglede indlæsning af CPR data vil blive gennemført.&#xD;
-Register: Det Centrale Personregister (CPR)&#xD;
-Service: Dataopdatering&#xD;
-Status: Løst&#xD;
-Sagsreference: 44225&#xD;
-</content>
-  </entry>
-  <entry>
-    <id>44238</id>
-    <title
-      type="text">Mail om tilgængelige filudtræk er ikke udsendt </title>
-    <updated>2023-09-14T07:06:11Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/44238" />
-    <content
-      type="text">Besked: Mail om tilgængelige filudtræk er ikke udsendt. 
-
-14.09.2023 klokken 09:05: Fejlen er løst, der sendes igen mail om tilgængelige filudtræk.
-
-Mail med information om tilgængelige filudtræk, er ikke blevet sendt ud siden fredag den 8. september om eftermiddagen.
-
-Der bliver arbejdet på at løse fejlen.
-
- &#xD;
-Register: Alle&#xD;
-Service: Filudtræk&#xD;
-Status: Løst&#xD;
-Sagsreference: 44238&#xD;
 </content>
   </entry>
 </feed>
