@@ -145,27 +145,6 @@ Sagsreference: 44407&#xD;
 </content>
   </entry>
   <entry>
-    <id>44563</id>
-    <title
-      type="text">BBR laver en stor datakørsel</title>
-    <updated>2023-09-22T12:47:43Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/44563" />
-    <content
-      type="text">Besked: BBR laver en stor datakørsel på Enhed
-
-BBR laver en stor datakørsel i weekenden den 23. og 24. september på udlejningsforhold på Enhed.
-
-Beregning for udlejningsforhold på enhed vil fremadrettet bruge data fra Ejerfortegnelsen fordi ESR bliver udfaset. Det forventes at 350.000 objekter bliver opdateret hen over weekenden.
-
-Dette vil medføre, at der bliver udsendt ekstraordinært mange hændelser og større deltafiludtræk.&#xD;
-Register: Bygnings- og Boligregisteret (BBR)&#xD;
-Status: I gang&#xD;
-Sagsreference: 44563&#xD;
-</content>
-  </entry>
-  <entry>
     <id>28408</id>
     <title
       type="text">Kommunevise landsdækkende Matrikelkort i GeoPackage format opdateres ikke</title>
@@ -245,24 +224,6 @@ Register: GeoDanmark Vektor&#xD;
 Service: Filudtræk&#xD;
 Status: I gang&#xD;
 Sagsreference: 44146&#xD;
-</content>
-  </entry>
-  <entry>
-    <id>44577</id>
-    <title
-      type="text">Manglende besked om filudtræk er klar</title>
-    <updated>2023-09-25T07:02:27Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/44577" />
-    <content
-      type="text">Besked: Manglende besked om filudtræk er klar
-
-25-09-2023: Der mangler besked om filudtræk er klar til download.  Filudtrækket er der dog, men beskeden om det er klar mangler.&#xD;
-Register: Alle&#xD;
-Service: Filudtræk&#xD;
-Status: I gang&#xD;
-Sagsreference: 44577&#xD;
 </content>
   </entry>
   <entry>
