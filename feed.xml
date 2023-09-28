@@ -7,32 +7,6 @@
   <id>serviceMessages</id>
   <updated>2023-09-28T11:40:06Z</updated>
   <entry>
-    <id>27373</id>
-    <title
-      type="text">Overgang fra OCES2 til OCES3 certifikater på Datafordeleren</title>
-    <updated>2023-08-18T08:34:23Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/27373" />
-    <content
-      type="text">Besked: Overgang fra OCES2 til OCES3 certifikater på Datafordeleren.
-
-Det berører tjenestebrugeres anvendelse af FOCES og VOCES på Datafordeleren. Bemærk: Udfasning af OCES2 læs mere her https://www.mitid-erhverv.dk/avanceret/certifikater/
-
- 
-
- 
-
- 
-
- &#xD;
-Register: Alle&#xD;
-Service: Webservice&#xD;
-Status: I gang&#xD;
-Sagsreference: 27373&#xD;
-</content>
-  </entry>
-  <entry>
     <id>29858</id>
     <title
       type="text">Skærmkortet for juli 2023 er opdateret. Næste opdatering planlægges til september 2023.</title>
@@ -99,26 +73,6 @@ Status: Planlagt&#xD;
 Sagsreference: 44648&#xD;
 Forventet fra: 01-01-0001 00:00:00&#xD;
 Forventet til: 01-01-0001 00:00:00&#xD;
-</content>
-  </entry>
-  <entry>
-    <id>28408</id>
-    <title
-      type="text">Kommunevise landsdækkende Matrikelkort i GeoPackage format opdateres ikke</title>
-    <updated>2023-09-25T12:43:40Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/28408" />
-    <content
-      type="text">Besked: Kommunevise landsdækkende Matrikelkort i GeoPackage format opdateres ikke
-
-25-09-2023: Der arbejdes fortsat på at få løst problemet.
-
-06-06-2023: Kommunevise landsdækkende Matrikelkort i GeoPackage format opdateres ikke.&#xD;
-Register: Matriklen (MAT)&#xD;
-Service: Filudtræk&#xD;
-Status: I gang&#xD;
-Sagsreference: 28408&#xD;
 </content>
   </entry>
   <entry>
