@@ -22,23 +22,3 @@ jobs:
         timestamp=$(date -u)
         git commit -m "Feed opdateret: ${timestamp}" || exit 0
         git push
-  screenhsot:
-    runs-on: ubuntu-latest
-    container: nevermendel/chrome-headless-screenshots 
-    steps:
-    - name: Check out this repo
-      uses: actions/checkout@v2
-    - name: Fetch latest data
-      run:  take-screenshot.sh https://github.com
-    - name: Install git
-      run: apk update && apk add --no-cache git
-    - name: Commit and push if it changed
-      run: |-       
-        git config --global --add safe.directory "$GITHUB_WORKSPACE"
-        git config user.name "Automated"
-        git config user.email "actions@users.noreply.github.com"
-        git add -A
-        timestamp=$(date -u)
-        git commit -m "Feed opdateret: ${timestamp}" || exit 0
-        git pushmit -m "Screenshot opdateret: ${timestamp}" || exit 0
-        git push
