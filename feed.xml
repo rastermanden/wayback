@@ -5,7 +5,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2023-10-03T08:48:12Z</updated>
+  <updated>2023-10-03T08:56:48Z</updated>
   <entry>
     <id>29858</id>
     <title
@@ -52,7 +52,7 @@ Forventet til: 01-01-0001 00:00:00&#xD;
     <id>28524</id>
     <title
       type="text">Fejl i DHM prædefinerede filudtræk</title>
-    <updated>2023-09-15T08:39:13Z</updated>
+    <updated>2023-10-03T08:56:48Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/28524" />
@@ -61,7 +61,7 @@ Forventet til: 01-01-0001 00:00:00&#xD;
 
 Aktuelt optræder der en fejl i de prædefinerede filudtræk som består i, at filudtrækket bliver dannet som en korrupt komprimeringsfil. Dette arbejdes der på at løse og en ny status følger.
 
-15.09.2023: Der arbejdets fortsat på at løse problemet.&#xD;
+15.09.2023: Der bliver arbejdet på at løse problemet.&#xD;
 Register: Danmarks Højdemodel&#xD;
 Service: Filudtræk&#xD;
 Status: I gang&#xD;
@@ -92,7 +92,7 @@ Sagsreference: 44652&#xD;
     <id>29831</id>
     <title
       type="text">Fejl i nogle HF tjenester med tomme værdier.</title>
-    <updated>2023-08-25T08:24:20Z</updated>
+    <updated>2023-10-03T08:54:41Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/29831" />
@@ -101,7 +101,7 @@ Sagsreference: 44652&#xD;
 
 Man kan i øjeblikket opleve null værdier i nogle json filer for EJF,MAT,EBR
 
-25.08.2023: Der arbejdets på at løse problemet.&#xD;
+25.08.2023: Der bliver arbejdet på at løse problemet.&#xD;
 Register: Ejendomsbeliggenhedsregisteret (EBR), Ejerfortegnelsen (EJF), Matriklen (MAT)&#xD;
 Service: Filudtræk&#xD;
 Status: I gang&#xD;
@@ -112,16 +112,14 @@ Sagsreference: 29831&#xD;
     <id>44146</id>
     <title
       type="text">Brugerdefinerede Geodanmark og DHM filudtræk  leveres ikke i MDB formatet</title>
-    <updated>2023-09-26T08:44:58Z</updated>
+    <updated>2023-10-03T08:53:42Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/44146" />
     <content
       type="text">Besked: Brugerdefinerede GeoDanmark og DHM filudtræk leveres ikke i MDB formatet 
 
-Efter transitionen bliver MDB formatet ikke længere leveret. 
-
-Det er ved at blive afklaret, hvorvidt MDB formatet igen vil være tilgængeligt.
+Det er ved at blive afklaret, hvornår MDB formatet igen vil være tilgængeligt.
 
  &#xD;
 Register: GeoDanmark Vektor&#xD;
