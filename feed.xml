@@ -5,7 +5,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2023-11-01T11:38:58Z</updated>
+  <updated>2023-11-01T11:43:15Z</updated>
   <entry>
     <id>45098</id>
     <title
@@ -170,16 +170,16 @@ Forventet til: 01-01-0001 00:00:00&#xD;
     <id>28524</id>
     <title
       type="text">Fejl i DHM prædefinerede filudtræk</title>
-    <updated>2023-10-03T08:56:48Z</updated>
+    <updated>2023-11-01T11:43:15Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/28524" />
     <content
       type="text">Besked: Fejl i DHM prædefinerede filudtræk
 
-Aktuelt optræder der en fejl i de prædefinerede filudtræk som består i, at filudtrækket bliver dannet som en korrupt komprimeringsfil. Dette arbejdes der på at løse og en ny status følger.
+Aktuelt optræder der en fejl i de prædefinerede filudtræk, som består i at filudtrækket bliver dannet som en korrupt komprimeringsfil.
 
-15.09.2023: Der bliver arbejdet på at løse problemet.&#xD;
+01.11.2023: Der bliver arbejdet på at løse problemet.&#xD;
 Register: Danmarks Højdemodel&#xD;
 Service: Filudtræk&#xD;
 Status: I gang&#xD;
@@ -190,20 +190,16 @@ Sagsreference: 28524&#xD;
     <id>44652</id>
     <title
       type="text">SFTP download af filudtræk er meget langsom.</title>
-    <updated>2023-10-25T13:36:38Z</updated>
+    <updated>2023-11-01T11:41:40Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/44652" />
     <content
       type="text">Besked: SFTP download af filudtræk er meget langsom.
 
-25.10.2023 klokken 15:30. Der bliver fortsat arbejdet på at løse problemet.
+01.11.2023 klokken 12:30: Man kan fortsat opleve, at download af filudtræk fra ftp2.datafordeler.dk er meget langsom, og at forbindelsen bliver lukket.
 
-23.10.2023 klokken 11:00: Man kan fortsat opleve, at download af filudtræk fra ftp2.datafordeler.dk er meget langsom, og at forbindelsen bliver lukket. Der arbejdes på at løse problemet.
-
-27.09.2023 klokken 12:00: Man kan i øjeblikket opleve download af filudtræk fra ftp2.datafordeler.dk er meget langsom og oplevelsen kan være, at forbindelsen bliver lukket.
-
-Der bliver arbejdet på at løse fejlen.&#xD;
+Der bliver fortsat arbejdet på at løse problemet.&#xD;
 Register: Alle&#xD;
 Service: Filudtræk&#xD;
 Status: I gang&#xD;
