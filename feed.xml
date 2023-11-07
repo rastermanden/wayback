@@ -5,7 +5,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2023-11-06T13:21:55Z</updated>
+  <updated>2023-11-06T08:09:41Z</updated>
   <entry>
     <id>45098</id>
     <title
@@ -215,24 +215,6 @@ Periode slut: 01-01-0001 00:00:00&#xD;
 </content>
   </entry>
   <entry>
-    <id>45298</id>
-    <title
-      type="text">Dokumentation i Confluence er ikke tilgængelig</title>
-    <updated>2023-11-06T08:34:26Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/45298" />
-    <content
-      type="text">Besked: Dokumentation i Confluence er ikke tilgængelig
-
-Link til Datafordelerens dokumentation i Confluence er ikke aktive, fordi Confluence ikke er tilgængeligt. Der bliver arbejdet på at løse problemet.&#xD;
-Register: Alle&#xD;
-Service: Dokumentation&#xD;
-Status: I gang&#xD;
-Sagsreference: 45298&#xD;
-</content>
-  </entry>
-  <entry>
     <id>28524</id>
     <title
       type="text">Fejl i DHM prædefinerede filudtræk</title>
@@ -312,26 +294,6 @@ Register: GeoDanmark Vektor&#xD;
 Service: Filudtræk&#xD;
 Status: I gang&#xD;
 Sagsreference: 44146&#xD;
-</content>
-  </entry>
-  <entry>
-    <id>45321</id>
-    <title
-      type="text">MAT Dataopdatering stoppet i produktionsmiljøet</title>
-    <updated>2023-11-06T13:21:55Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/45321" />
-    <content
-      type="text">Besked: MAT Dataopdatering stoppet i produktionsmiljøet
-
-06.11.2023 klokken 14:15: Problemet er løst og MAT dataopdatering er tilbage i normal drift.
-
-MAT dataopdatering er stoppet i produktionsmiljøet, sidste opdatering var 06.11.2023 klokken 11:19:19. Der bliver arbejdet på at løse problemet.&#xD;
-Register: Matriklen (MAT)&#xD;
-Service: Dataopdatering&#xD;
-Status: Løst&#xD;
-Sagsreference: 45321&#xD;
 </content>
   </entry>
   <entry>
