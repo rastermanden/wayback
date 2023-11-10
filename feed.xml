@@ -5,21 +5,23 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2023-11-10T09:38:23Z</updated>
+  <updated>2023-11-10T09:49:26Z</updated>
   <entry>
-    <id>29858</id>
+    <id>45512</id>
     <title
-      type="text">Skærmkortet er opdateret i uge 45</title>
-    <updated>2023-11-08T10:09:27Z</updated>
+      type="text">MDB formatet er udfaset på Datafordeleren</title>
+    <updated>2023-11-10T09:49:26Z</updated>
     <link
       rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/29858" />
+      href="https://datafordeler.dk/drift/meddelelser/45512" />
     <content
-      type="text">Besked: Skærmkortet er opdateret i uge 45
-08.11.2023: Skærmkortet er blevet opdateret i dag.&#xD;
-Register: Skærmkortet&#xD;
+      type="text">Besked: MDB formatet er udfaset på Datafordeleren
+
+Siden 1. september 2023 har det ikke været muligt at hente filudtræk i MDB format på Datafordeleren, fordi konverteringen til MDB ikke længere er teknisk understøttet. Data er tilgængeligt på Datafordeleren i det konvertible GeoPackage format, som kan bruges i de fleste GIS klienter.&#xD;
+Register: Danmarks Højdemodel, GeoDanmark Vektor&#xD;
+Service: Filudtræk&#xD;
 Status: Løst&#xD;
-Sagsreference: 29858&#xD;
+Sagsreference: 45512&#xD;
 </content>
   </entry>
   <entry>
@@ -104,28 +106,6 @@ Sagsreference: 28524&#xD;
 </content>
   </entry>
   <entry>
-    <id>44652</id>
-    <title
-      type="text">SFTP download af filudtræk er meget langsom.</title>
-    <updated>2023-11-09T10:33:16Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/44652" />
-    <content
-      type="text">Besked: SFTP download af filudtræk er meget langsom.
-
-09.11.2023: Problemet er løst og download af filudtræk fra ftp2.datafordeler.dk er i normal drift.
-
-01.11.2023 klokken 12:30: Man kan fortsat opleve, at download af filudtræk fra ftp2.datafordeler.dk er meget langsom, og at forbindelsen bliver lukket.
-
-Der bliver fortsat arbejdet på at løse problemet.&#xD;
-Register: Alle&#xD;
-Service: Filudtræk&#xD;
-Status: Løst&#xD;
-Sagsreference: 44652&#xD;
-</content>
-  </entry>
-  <entry>
     <id>45495</id>
     <title
       type="text">Dokumentation i Confluence er ikke tilgængelig</title>
@@ -141,6 +121,22 @@ Register: Alle&#xD;
 Service: Dokumentation&#xD;
 Status: I gang&#xD;
 Sagsreference: 45495&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>45511</id>
+    <title
+      type="text">Skærmkortet planlagt opdatering i januar 2024</title>
+    <updated>2023-11-10T09:45:55Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/45511" />
+    <content
+      type="text">Besked: Skærmkortet planlagt opdatering i januar 2024&#xD;
+Register: Skærmkortet&#xD;
+Service: Dataopdatering&#xD;
+Status: I gang&#xD;
+Sagsreference: 45511&#xD;
 </content>
   </entry>
   <entry>
@@ -163,26 +159,6 @@ Register: GeoDanmark Vektor&#xD;
 Service: Filudtræk&#xD;
 Status: I gang&#xD;
 Sagsreference: 45224&#xD;
-</content>
-  </entry>
-  <entry>
-    <id>44146</id>
-    <title
-      type="text">Brugerdefinerede Geodanmark og DHM filudtræk  leveres ikke i MDB formatet</title>
-    <updated>2023-10-06T08:40:39Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/44146" />
-    <content
-      type="text">Besked: Brugerdefinerede GeoDanmark og DHM filudtræk bliver ikke leveret i MDB
-
-Det er ved at blive afklaret, hvornår MDB formatet igen vil være tilgængeligt.
-
- &#xD;
-Register: GeoDanmark Vektor&#xD;
-Service: Filudtræk&#xD;
-Status: I gang&#xD;
-Sagsreference: 44146&#xD;
 </content>
   </entry>
   <entry>
