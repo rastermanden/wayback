@@ -5,7 +5,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2023-12-04T11:42:03Z</updated>
+  <updated>2023-12-04T11:54:31Z</updated>
   <entry>
     <id>46063</id>
     <title
@@ -50,6 +50,25 @@ Register: Ejerfortegnelsen (EJF)&#xD;
 Service: Filudtræk, Hændelser&#xD;
 Status: I gang&#xD;
 Sagsreference: 46075&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>46087</id>
+    <title
+      type="text">Udstilling af BBR-data på DAWA lukker den 1. januar 2024</title>
+    <updated>2023-12-04T11:54:31Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/46087" />
+    <content
+      type="text">Besked: Udstilling af BBR-data på DAWA lukker den 1. januar 2024
+
+Data fra Bygnings- og Boligregisteret (BBR) vil fremover ikke længere kunne hentes på distributionsplatformen DAWA. Anvendere af BBR-data skal i stedet hente data fra Datafordeleren eller benytte sig af en af Udviklings- og Forenklingsstyrelsens løsninger.
+
+Læs mere på sdfi.dk&#xD;
+Register: Bygnings- og Boligregisteret (BBR)&#xD;
+Status: I gang&#xD;
+Sagsreference: 46087&#xD;
 </content>
   </entry>
   <entry>
