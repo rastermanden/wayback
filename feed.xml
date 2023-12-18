@@ -5,7 +5,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2023-12-18T10:34:05Z</updated>
+  <updated>2023-12-18T11:37:18Z</updated>
   <entry>
     <id>46063</id>
     <title
@@ -48,17 +48,41 @@ Sagsreference: 46087&#xD;
 </content>
   </entry>
   <entry>
+    <id>46422</id>
+    <title
+      type="text">Test03, Test04 og Te06 servicevinduer, tirsdag den 19. december.</title>
+    <updated>2023-12-18T11:37:18Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/46422" />
+    <content
+      type="text">Besked: Test03, Test04 og Te06 servicevinduer, tirsdag den 19. december
+
+18.12.2023 klokken 11:00: Efter klokken 17:00 - 18:30 er der servicevinduer på testmiljøerne. 
+
+I tidsrummet vil testmiljøerne periodevist være utilgængelige.&#xD;
+Register: Alle&#xD;
+Service: Webservice, Filudtræk, Dataopdatering&#xD;
+Status: Ikke planlagt&#xD;
+Sagsreference: 46422&#xD;
+Periode start: 01-01-0001 00:00:00&#xD;
+Periode slut: 01-01-0001 00:00:00&#xD;
+</content>
+  </entry>
+  <entry>
     <id>46409</id>
     <title
       type="text">Der er i øjeblikket forsinkelse i de normale dataopdateringer for Matriklen, EBR, EJF og stednavne.</title>
-    <updated>2023-12-18T09:33:07Z</updated>
+    <updated>2023-12-18T11:34:05Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/46409" />
     <content
       type="text">Besked: Der er i øjeblikket forsinkelse i de normale dataopdateringer for Matriklen, EBR, EJF og stednavne.
 
-18.12.2023 klokken 10:30 Der arbejdes på at løse problemet. Læs mere her: https://confluence.sdfi.dk/display/DML/Dataopdateringer om den normale frekvens for registres dataopdateringer på datafordeleren.&#xD;
+18.12.2023 klokken 10:30 Der bliver arbejdet på at løse problemet.
+
+Læs mere her: https://confluence.sdfi.dk/display/DML/Dataopdateringer om den normale frekvens for registres dataopdateringer på datafordeleren.&#xD;
 Register: Danske Stednavne, Ejendomsbeliggenhedsregisteret (EBR), Ejerfortegnelsen (EJF), Matriklen (MAT)&#xD;
 Service: Dataopdatering&#xD;
 Status: I gang&#xD;
