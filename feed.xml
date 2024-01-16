@@ -100,28 +100,6 @@ Periode slut: 01-01-0001 00:00:00&#xD;
 </content>
   </entry>
   <entry>
-    <id>46932</id>
-    <title
-      type="text">EJF Dataopdatering er stoppet i produktionsmiljøet</title>
-    <updated>2024-01-15T06:20:49Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/46932" />
-    <content
-      type="text">Besked: EJF Dataopdatering er stoppet i produktionsmiljøet
-
-15.01.2024: Problemet er løst.
-
-12.01.2024 klokken 15:00: Der arbejdes fortsat på at løse problemet.
-
-12.01.2024 klokken 09:45: EJF dataopdatering er stoppet i produktionsmiljøet, sidste opdatering var 12.01.2024 klokken 08:49:25. Der bliver arbejdet på at løse problemet.&#xD;
-Register: Ejerfortegnelsen (EJF)&#xD;
-Service: Dataopdatering&#xD;
-Status: Løst&#xD;
-Sagsreference: 46932&#xD;
-</content>
-  </entry>
-  <entry>
     <id>45511</id>
     <title
       type="text">Skærmkortet er planlagt til opdatering uge 3 2024</title>
