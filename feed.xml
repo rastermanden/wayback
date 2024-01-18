@@ -121,30 +121,6 @@ Sagsreference: 45224&#xD;
 </content>
   </entry>
   <entry>
-    <id>46080</id>
-    <title
-      type="text">Fejl kan opleves sporadisk i selvbetjening på datafordeler.dk</title>
-    <updated>2023-12-13T11:40:29Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/46080" />
-    <content
-      type="text">Besked: Fejl med at oprette tjenestebruger kan opleves sporadisk på datafordeler.dk
-
-Der kan på nuværende tidspunkt opleves problemer med at oprette en tjenestebruger på datafordeler.dk med en fejlbesked, der siger "Du har ikke tilladelse til at udføre denne funktion". Det anbefales at prøve følgende workaround:
-
-1. Brug https://selfservice.datafordeler.dk/
-
-Er der stadig problemer med at oprette en tjenestebruger på selfservice.datafordeler.dk:
-
-2. Log ud -&amp;gt; vent en time -&amp;gt; log in og prøv igen. &#xD;
-Register: Alle&#xD;
-Service: Selvbetjening&#xD;
-Status: I gang&#xD;
-Sagsreference: 46080&#xD;
-</content>
-  </entry>
-  <entry>
     <id>44657</id>
     <title
       type="text">Manglende levering af prædefinerede filudtræk</title>
