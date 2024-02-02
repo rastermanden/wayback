@@ -5,7 +5,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2024-02-01T10:50:03Z</updated>
+  <updated>2024-02-02T09:15:14Z</updated>
   <entry>
     <id>47193</id>
     <title
@@ -26,34 +26,28 @@ Sagsreference: 47193&#xD;
 </content>
   </entry>
   <entry>
-    <id>46063</id>
+    <id>47576</id>
     <title
-      type="text">Det kommunale ejendomsnummer udfases i BBR ultimo januar 2024</title>
-    <updated>2024-01-12T12:45:15Z</updated>
+      type="text">DAR retter datafejl ved at slette rækker</title>
+    <updated>2024-02-02T09:15:14Z</updated>
     <link
       rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/46063" />
+      href="https://datafordeler.dk/drift/meddelelser/47576" />
     <content
-      type="text">Besked: Det kommunale ejendomsnummer udfases i BBR ultimo januar 2024
+      type="text">Besked: DAR retter datafejl ved at slette rækker
 
-12.01.2024 klokken 11:15
+Grundet en datafejl i DAR, er DAR nødsaget til at få slettet enkelte rækker direkte i Datafordeleren. Disse vil derfor ikke komme med i efterfølgende delta-filudtræk, når sletningen bliver foretaget mandag den 5. februar klokken 10:00.
+Det drejer sig om husnummer, id_lokalid = '0a3f508b-2a57-32b8-e044-0003ba298018', hvor de fejlagtige rækker med store bogstaver '0A3F508B-2A57-32B8-E044-0003BA298018' bliver slettet. Der er tale om 3 rækker, der bliver slettet.
 
-BBRs beslutning om at stoppe vedligeholdelsen af BBRs Ejendomsrelation, hvad angår hændelser fra ESR, er udskudt fra 12.01.2024 til senest 31.01.2024.
-Årsagen skyldes en ændring i ESR udfasningsplanen, som dog fortsat sker januar 2024 som planlagt
+Hvis man har haft problemer med indlæsning af deltafiler, siden datafejlen opstod den 11. januar, vil dette blive løst ved et nyt totaludtræk, når sletningen er foretaget.
 
-09.01.2024 klokken 12:30: 
+Hvis processering af husnummer.id_lokalid fra filudtræk ikke er casesensitiv, vil '0A3F508B-2A57-32B8-E044-0003BA298018' være opfattet, som værende det samme husnummer som '0a3f508b-2a57-32b8-e044-0003ba298018', hvilket ville medfører overlappende virkningstider.
 
-Vurderingsstyrelsen har besluttet at udskyde  udfasningen af kommune-ejendomsnummeret (KE-nr.) i BBRs Ejendomsrelationstabel, fra tidligere medio januar til 1. maj 2024 eller snarest derefter. Beslutningen påvirker ikke den generelle beslutning om at udfase ESR, som fortsat sker i januar 2024. Det betyder, at BBR fra og med udfasningen af ESR,  ikke kan garantere, at KE-nummeret i BBRs ejendomsrelations-tabel kan anvendes som ejendomsidentifikation. Som en konsekvens heraf stopper vedligeholdelse af kommune-ejendomsnummeret i BBRs ejendomsrelations-tabel den 12. januar 2024. BBR-meddelelsen vil fremadrettet være afgrænset til én BFE ejendom. Hvis en BFE ejendom strækker sig over flere kommuner, skal der udskrives en BBR-meddelelse for hver kommune, hvor BFE ejendommen ligger
-
-04.12.2023 klokken 12:30:
-
-Vurderingsstyrelsen og UFST oplyser følgende: "Vurderingsstyrelsen og UFST har besluttet, at ESR – og dermed kommune-ejendomsnummeret (KE-nr.) – fra 1. januar 2024 udfases. Som konsekvens heraf vil alle aktuelt gældende ejendomsrelationer i BBRs-ejendomsrelations-tabel blive opdateret således, at kommune-ejendomsnummeret fremadrettet kun vil fremgå af historikken. BBR-meddelelsen vil fremadrettet være afgrænset til én BFE ejendom. Hvis en BFE ejendom krydser kommunegrænsen, skal der udskrives en BBR-meddelelse for hver kommune hvor BFE ejendommen ligger. Opdateringen forventes at ske medio januar, præcis dato udmeldes senere."
-
-Spørgsmål til ovenstående kan rettes til: bbr@bbr.dk&#xD;
-Register: Bygnings- og Boligregisteret (BBR)&#xD;
-Service: Webservice, Filudtræk, Hændelser&#xD;
+Hvis man baserer sin lokale kopi af DAR på gældende husnumre fra filudtræk og ikke har en kopi af historiske versioner, vil man ikke have oplevet problemer med datafejlen i DAR.&#xD;
+Register: Danmarks Adresseregister (DAR)&#xD;
+Service: Dataopdatering&#xD;
 Status: I gang&#xD;
-Sagsreference: 46063&#xD;
+Sagsreference: 47576&#xD;
 </content>
   </entry>
   <entry>
