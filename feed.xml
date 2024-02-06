@@ -5,7 +5,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2024-02-06T12:12:29Z</updated>
+  <updated>2024-02-06T12:21:41Z</updated>
   <entry>
     <id>47193</id>
     <title
@@ -31,7 +31,7 @@ Sagsreference: 47193&#xD;
     <id>47540</id>
     <title
       type="text">Varsling om lukning af Matriklen</title>
-    <updated>2024-02-06T12:12:29Z</updated>
+    <updated>2024-02-06T12:21:41Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/47540" />
@@ -40,7 +40,9 @@ Sagsreference: 47193&#xD;
 
 Vi gør opmærksom på, at Matriklen overgår til Matriklen2 på Datafordeleren den 31. marts 2024.
 
-Vi opfordrer til, at der er skiftet til Matriklen2 snarest og senest 31. marts 2024.&#xD;
+Vi opfordrer til, at der er skiftet til Matriklen2 snarest og senest 31. marts 2024.
+
+Læs mere om Matriklen2 her https://datafordeler.dk/drift/aendringer&#xD;
 Register: Matriklen (MAT)&#xD;
 Service: Webservice, Filudtræk, Hændelser&#xD;
 Status: Planlagt&#xD;
