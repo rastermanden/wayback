@@ -76,24 +76,4 @@ Status: I gang&#xD;
 Sagsreference: 48694&#xD;
 </content>
   </entry>
-  <entry>
-    <id>45236</id>
-    <title
-      type="text">*De offentligt tilgængelige DAR filudtræk kan ikke hentes i øjeblikket via HTTP og HTTPS i alle Datafordeler miljøerne*</title>
-    <updated>2024-02-09T10:11:53Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/45236" />
-    <content
-      type="text">Besked: De offentligt tilgængelige DAR filudtræk kan ikke hentes i øjeblikket via HTTP og HTTPS, i alle Datafordeler miljøerne
-
-09.02.2024: Der arbejdes fortsat på at løse problemet.
-
-24.11.2023: Der bliver arbejdet på at løse problemet. Hentning af DAR offentlige filudtræk via Datafordeler ftp3-serveren er ikke berørt.&#xD;
-Register: Danmarks Adresseregister (DAR)&#xD;
-Service: Filudtræk&#xD;
-Status: I gang&#xD;
-Sagsreference: 45236&#xD;
-</content>
-  </entry>
 </feed>
