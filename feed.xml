@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2024-03-14T11:46:47Z</updated>
+  <updated>2024-03-14T11:52:38Z</updated>
   <entry>
     <id>48905</id>
     <title
@@ -29,7 +29,7 @@ Sagsreference: 48905&#xD;
     <id>48979</id>
     <title
       type="text">Test03, Test04 og Test06 servicevinduer, onsdag den 20. marts</title>
-    <updated>2024-03-14T11:46:47Z</updated>
+    <updated>2024-03-14T11:52:38Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/48979" />
@@ -40,7 +40,7 @@ Klokken 17:00 -  02:00 er der servicevinduer på testmiljøerne. 
 
 I tidsrummet vil testmiljøerne periodevist være utilgængelige.&#xD;
 Register: Alle&#xD;
-Service: Webservice, Filudtræk, Hændelser, Dataopdatering&#xD;
+Service: Filudtræk, Hændelser, Dataopdatering, Selvbetjening&#xD;
 Status: Planlagt&#xD;
 Sagsreference: 48979&#xD;
 Periode start: 01-01-0001 00:00:00&#xD;
