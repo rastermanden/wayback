@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed
+  xmlns="http://www.w3.org/2005/Atom">
+  <title
+    type="text">Service Messages</title>
+  <subtitle
+    type="text"></subtitle>
+  <id>serviceMessages</id>
+  <updated>2024-04-11T10:38:35Z</updated>
+  <entry>
+    <id>48905</id>
+    <title
+      type="text">Skærmkort</title>
+    <updated>2024-04-10T08:41:24Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/48905" />
+    <content
+      type="text">Besked: Skærmkort
+
+10.04.2024: Skærmkortet bliver opdateret i uge 16.&#xD;
+Register: Skærmkortet&#xD;
+Service: Webservice&#xD;
+Status: I gang&#xD;
+Sagsreference: 48905&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>49411</id>
+    <title
+      type="text">Planlagt Datafordeler produktion systemarbejde den 20. april 2024 i tidsrummet klokken 01:00-13:00</title>
+    <updated>2024-04-09T10:02:28Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/49411" />
+    <content
+      type="text">Besked: Planlagt systemarbejde i Datafordeler produktionsmiljøet lørdag den 20. april 2024, i tidsrummet klokken 01:00-13:00
+
+I tidsrummet lørdag klokken 10:00-12:00 vil brugerdefinerede filudtræk ikke blive genereret og distribueret, og register dataopdateringer vil være stoppet.&#xD;
+Register: Alle&#xD;
+Service: Filudtræk, Dataopdatering&#xD;
+Status: Planlagt&#xD;
+Sagsreference: 49411&#xD;
+Forventet fra: 19-04-2024 23:00:00&#xD;
+Forventet til: 20-04-2024 11:00:00&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>48981</id>
+    <title
+      type="text">Test06 servicevindue, den 4. april til den 17. april 2024</title>
+    <updated>2024-04-08T09:11:51Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/48981" />
+    <content
+      type="text">Besked: Test06 servicevindue den 4. april til den 17. april 2024
+
+Der er servicevindue på Test06 i perioden 4. april til 17. april 2024. Der kan forekomme ændringer i datoerne. 
+
+Der kan periodevist være ustabilitet i miljøet på dataindlæsning, webservices, hændelser og filudtræk.&#xD;
+Register: Alle&#xD;
+Service: Webservice, Filudtræk, Hændelser, Dataopdatering&#xD;
+Status: I gang&#xD;
+Sagsreference: 48981&#xD;
+Periode start: 01-01-0001 00:00:00&#xD;
+Periode slut: 01-01-0001 00:00:00&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>49371</id>
+    <title
+      type="text">PROD servicevindue onsdag den 24. april 2024 klokken 17:00 – 21:00</title>
+    <updated>2024-04-09T08:12:49Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/49371" />
+    <content
+      type="text">Besked: PROD servicevindue onsdag den 24. april 2024 klokken 17:00 – 21:00
+
+Der er planlagt et servicevindue på PROD onsdag den 24. april 2024 klokken 17:00 – 21:00.
+
+Anvendere kan opleve længere svartider på services i tidsrummet.&#xD;
+Register: Alle&#xD;
+Status: Planlagt&#xD;
+Sagsreference: 49371&#xD;
+Periode start: 01-01-0001 00:00:00&#xD;
+Periode slut: 01-01-0001 00:00:00&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>48116</id>
+    <title
+      type="text">Manglende levering af MAT2 filudtræk: Samlet Fast Ejendom og Bestemt Fast Ejendom</title>
+    <updated>2024-04-10T12:32:54Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/48116" />
+    <content
+      type="text">Besked: Manglende levering af MAT2 filudtræk: Samlet Fast Ejendom og Bestemt Fast Ejendom
+
+Siden den 6. februar er de brugerdefinerede MAT2 filudtræk Samlet Fast Ejendom og Bestemt Fast Ejendom ikke blevet leveret til abonnementer uden filtrering.
+
+10.04.2024: MAT2 brugerdefinerede filudtræk Samlet Fast Ejendom og Bestemt Fast Ejendom filudtræk leveres igen. Filudtræk bestilt men ikke leveret, i perioden fra den 6. februar frem til dags dato (10.04.2024), er aktuelt i gang med at blive genereret og leveret til abonnementer / bestiller. Der vil være en længere genereringstid for filudtrækkene end normalt, men hvilket der arbejdes på at nedbringe.
+
+08.04.2024 klokken 12:30: Der bliver fortsat arbejdet på at løse fejlen.
+&#xD;
+Register: Matriklen (MAT)&#xD;
+Status: I gang&#xD;
+Sagsreference: 48116&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>49444</id>
+    <title
+      type="text">Forsinkelse i opdatering af CPR data.</title>
+    <updated>2024-04-11T10:38:35Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/49444" />
+    <content
+      type="text">Besked: CPR's dataopdatering ikke indlæst som planlagt natten til onsdag den 10. april
+
+11.04.2024: CPR dataopdatering er i normal drift. Dataopdatering for den 10. april blev gennemført sammen med den ordinære dataopdatering. Hændelser bliver også sendt ud som normalt.
+
+Den normale CPR dataopdatering blev ikke indlæst som planlagt natten til onsdag den 10. april, i tidsrummet klokken 01:00-03:00, men vil blive indlæst med den næste indlæsning natten til torsdag den 11. april. Dette har også medført, at CPR hændelser ikke er udsendt onsdag den 10 april. Seneste CPR dataopdatering og udsendelse af hændelser var tirsdag den 9. april.&#xD;
+Register: Det Centrale Personregister (CPR)&#xD;
+Service: Hændelser, Dataopdatering&#xD;
+Status: Løst&#xD;
+Sagsreference: 49444&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>49447</id>
+    <title
+      type="text">GeoDanmark Vektor Prædefineret GML_HF kan være forsinket</title>
+    <updated>2024-04-10T08:58:18Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/49447" />
+    <content
+      type="text">Besked: GeoDanmark Vektor Prædefineret GML_HF kan være forsinket
+
+10.04.2024 klokken 11:00: Man kan i øjeblikket opleve forsinkelser på levering af GeoDanmark Vektor Prædefineret GML_HF filudtræk.
+
+Der bliver arbejdet på at løse problemet.&#xD;
+Register: GeoDanmark Vektor&#xD;
+Service: Filudtræk&#xD;
+Status: I gang&#xD;
+Sagsreference: 49447&#xD;
+</content>
+  </entry>
+</feed>
