@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2024-06-25T07:30:58Z</updated>
+  <updated>2024-06-25T07:32:51Z</updated>
   <entry>
     <id>51377</id>
     <title
@@ -239,7 +239,7 @@ Sagsreference: 51575&#xD;
     <id>51634</id>
     <title
       type="text">Totaludtræk med EJF_EjerskabMedStamoplysning_HF bliver ikke leveret korrekt</title>
-    <updated>2024-06-25T07:30:58Z</updated>
+    <updated>2024-06-25T07:32:51Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/51634" />
@@ -253,7 +253,7 @@ Sagsreference: 51575&#xD;
 Der bliver arbejdet på at løse problemet.&#xD;
 Register: Ejerfortegnelsen (EJF)&#xD;
 Service: Filudtræk&#xD;
-Status: I gang&#xD;
+Status: Løst&#xD;
 Sagsreference: 51634&#xD;
 </content>
   </entry>
