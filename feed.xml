@@ -26,30 +26,6 @@ Sagsreference: 51403&#xD;
 </content>
   </entry>
   <entry>
-    <id>50887</id>
-    <title
-      type="text">Test04 servicevindue den 14. juni til den 28. juni 2024</title>
-    <updated>2024-07-01T05:34:00Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/50887" />
-    <content
-      type="text">Besked: Test04 servicevindue den 14. juni til den 28. juni 2024
-
-Der er planlagt servicevindue på Test04 i perioden 14. juni til den 28. juni 2024.
-
-Data bliver ikke opdateret i miljøet under servicevinduet, og der vil være periodevis ustabilitet på alle tjenester og Selvbetjeningsportalen.
-
-Husk at Test04 samtidigt overgår fra testcertifikater til produktionscertifikater den 18. juni.&#xD;
-Register: Alle&#xD;
-Service: Webservice, Filudtræk, Hændelser, Dataopdatering, Selvbetjening&#xD;
-Status: Gennemført&#xD;
-Sagsreference: 50887&#xD;
-Periode start: 1/1/0001 12:00:00 AM&#xD;
-Periode slut: 1/1/0001 12:00:00 AM&#xD;
-</content>
-  </entry>
-  <entry>
     <id>51536</id>
     <title
       type="text">Test06 servicevindue mandag den 1. juli 2024 klokken 10:00 – 14:00</title>
