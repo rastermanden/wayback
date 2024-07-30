@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed
+  xmlns="http://www.w3.org/2005/Atom">
+  <title
+    type="text">Service Messages</title>
+  <subtitle
+    type="text"></subtitle>
+  <id>serviceMessages</id>
+  <updated>2024-07-30T10:36:49Z</updated>
+  <entry>
+    <id>52161</id>
+    <title
+      type="text">Ejerfortegnelsen overgår til automatiserede månedlige datarettelser</title>
+    <updated>2024-07-30T10:36:49Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/52161" />
+    <content
+      type="text">Besked: Ejerfortegnelsen overgår til automatiserede månedlige datarettelser
+
+Den 1. september vil Ejerfortegnelsen starte med at afvikle automatiserede månedlige datarettelser. Læs mere om de automatiske månedlige datarettelser i EJF i dokumentationen: https://confluence.sdfi.dk/pages/viewpage.action?pageId=152005266&#xD;
+Register: Ejerfortegnelsen (EJF)&#xD;
+Service: Dataopdatering&#xD;
+Status: I gang&#xD;
+Sagsreference: 52161&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>52279</id>
+    <title
+      type="text">PROD servicevindue den 5. august klokken 17:00 til den 6. august 2024 klokken 08:00 og den 6. august 2024 klokken 17:00 - 22:00</title>
+    <updated>2024-07-12T08:47:31Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/52279" />
+    <content
+      type="text">Besked: PROD servicevindue den 5. august klokken 17:00 til den 6. august 2024 klokken 08:00 og den 6. august 2024 klokken 17:00 - 22:00
+
+Som led i Moderniseringen af Datafordeleren vil PROD miljøet være under servicevindue i perioderne:
+
+	Mandag den 5. august klokken 17:00 til tirsdag den 6. august 2024 klokken 08:00
+	Tirsdag den 6. august klokken 17:00 - 22:00
+
+
+
+Anvendere kan i tidsrummene opleve forsinkelse på dataopdatering og hændelser.
+
+ 
+
+Læs mere om moderniseringen på https://datafordeler.dk/vejledning/modernisering/&#xD;
+Register: Alle&#xD;
+Service: Hændelser, Dataopdatering&#xD;
+Status: Planlagt&#xD;
+Sagsreference: 52279&#xD;
+Periode start: 1/1/0001 12:00:00 AM&#xD;
+Periode slut: 1/1/0001 12:00:00 AM&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>51300</id>
+    <title
+      type="text">DAGI dataopdatering er stoppet i produktionsmiljøet</title>
+    <updated>2024-07-01T11:13:43Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/51300" />
+    <content
+      type="text">Besked: DAGI dataopdatering er stoppet i produktionsmiljøet
+
+01.07.2024: DAGI bliver forventet opdateret ultimo august.
+
+DAGI dataopdatering er stoppet i produktionsmiljøet, sidste opdatering var 07.06.2024 klokken 09:00:46.&#xD;
+Register: Danmarks Administrative Geografiske Inddeling (DAGI)&#xD;
+Service: Dataopdatering&#xD;
+Status: I gang&#xD;
+Sagsreference: 51300&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>52359</id>
+    <title
+      type="text">Forsinket levering af MAT2 Samlet Fast Ejendom og Bestemt Fast Ejendom filudtræk</title>
+    <updated>2024-07-19T09:41:10Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/52359" />
+    <content
+      type="text">Besked: Forsinket levering af MAT2 Samlet Fast Ejendom og Bestemt Fast Ejendom filudtræk
+
+Anvenderne af MAT2 filudtræk Samlet Fast Ejendom og Bestemt Fast Ejendom kan i øjeblikket opleve en forsinkelse i leveringen af disse, grundet længere genereringstider for disse filudtræk end normalt. I nogle tilfælde kan dette også medføre at en levering af et filudtræk kan bliver sprunget over.
+
+Der arbejdes på at løse problemet.&#xD;
+Register: Matriklen (MAT)&#xD;
+Service: Filudtræk&#xD;
+Status: I gang&#xD;
+Sagsreference: 52359&#xD;
+</content>
+  </entry>
+</feed>
