@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2024-08-21T09:39:56Z</updated>
+  <updated>2024-08-21T09:48:48Z</updated>
   <entry>
     <id>52161</id>
     <title
@@ -50,13 +50,15 @@ Periode slut: 1/1/0001 12:00:00 AM&#xD;
   <entry>
     <id>52842</id>
     <title
-      type="text">Prædefinerede filudtræk ikke leveret</title>
-    <updated>2024-08-21T09:39:56Z</updated>
+      type="text">Prædefinerede filudtræk er ikke leveret</title>
+    <updated>2024-08-21T09:44:03Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/52842" />
     <content
-      type="text">Besked: Følgende prædefinerede filudtræk er ikke blevet leveret siden søndag den 11. august:
+      type="text">Besked: Prædefinerede filudtræk er ikke leveret
+
+Følgende prædefinerede filudtræk er ikke blevet leveret siden søndag den 11. august:
 
 	BBR Totaludtraek Complete
 	DAR Totaludtraek Complete
@@ -77,8 +79,10 @@ Følgende prædefinerede delta filudtræk er ikke blevet leveret siden den 15. o
 	MAT_Totaludtraek_Hist_DeltaDaily_JSON_HF_20240815211749
 	MAT_Registerdata_Totaludtraek_Delta_Daily_JSON_20240815211732
 
-&#xD;
-Register: Bygnings- og Boligregisteret (BBR), Danmarks Adresseregister (DAR), Ejendomsbeliggenhedsregisteret (EBR), Ejerfortegnelsen (EJF), Matriklen (MAT)&#xD;
+
+
+Der bliver arbejdet på at løse problemet.&#xD;
+Register: Alle&#xD;
 Service: Filudtræk&#xD;
 Status: I gang&#xD;
 Sagsreference: 52842&#xD;
@@ -126,14 +130,14 @@ Sagsreference: 52654&#xD;
     <id>52691</id>
     <title
       type="text">Begrænset brug af specialtegn på adgangskoder til Fildownload og WFS på geoserver</title>
-    <updated>2024-08-13T12:56:58Z</updated>
+    <updated>2024-08-21T09:48:48Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/52691" />
     <content
       type="text">Besked: Begrænset brug af specialtegn på tjenestebrugernes adgangskoder til Fildownload og WFS på geoserver
 
-13.08.2024 Klokken 14:45: Der er i øjeblikket kun adgang til Fildownload og WFS på geoserver for tjenestebrugere med adgangskoder, som gør brug af følgende specialtegn: ._$()!- 
+13.08.2024 Klokken 14:45: Der er i øjeblikket kun adgang til Fildownload og WFS på geoserver for tjenestebrugere med adgangskoder, som gør brug af følgende specialtegn: -.$()*!'+_ 
 
 Bruger man andre specialtegn i tjenestebrugerens adgangskode, kan man opleve en fejl 401.
 
