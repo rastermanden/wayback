@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2024-11-26T18:01:37Z</updated>
+  <updated>2024-11-26T18:03:50Z</updated>
   <entry>
     <id>54175</id>
     <title
@@ -164,7 +164,7 @@ Periode slut: 1/1/0001 12:00:00 AM&#xD;
     <id>55549</id>
     <title
       type="text">GeoDanmark Ortofoto WMTS utilgængelig.</title>
-    <updated>2024-11-26T18:01:37Z</updated>
+    <updated>2024-11-26T18:03:50Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/55549" />
