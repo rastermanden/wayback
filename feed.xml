@@ -6,12 +6,12 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2024-12-02T09:44:02Z</updated>
+  <updated>2024-12-02T09:44:20Z</updated>
   <entry>
     <id>55651</id>
     <title
       type="text">Dataopdatering i DAR</title>
-    <updated>2024-11-29T13:39:13Z</updated>
+    <updated>2024-12-02T09:44:20Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/55651" />
@@ -21,7 +21,7 @@
 DAR bliver opdateret med nye sogneinddelinger den 1. december. Det medfører, at deltafil for Husnumre vil indeholde 3 x 25.000 rækker med opdaterede sogne for cirka 60.000 adresser.&#xD;
 Register: Danmarks Adresseregister (DAR)&#xD;
 Service: Hændelser, Dataopdatering&#xD;
-Status: I gang&#xD;
+Status: Løst&#xD;
 Sagsreference: 55651&#xD;
 </content>
   </entry>
