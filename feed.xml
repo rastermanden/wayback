@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2024-12-05T08:58:58Z</updated>
+  <updated>2024-12-05T09:02:23Z</updated>
   <entry>
     <id>54175</id>
     <title
@@ -150,12 +150,14 @@ Periode slut: 1/1/0001 12:00:00 AM&#xD;
     <id>55326</id>
     <title
       type="text">Test06 servicevindue den 4. december 2024 klokken 9:00 til den 5. december kl. 9:00</title>
-    <updated>2024-12-05T08:58:58Z</updated>
+    <updated>2024-12-05T09:02:23Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/55326" />
     <content
       type="text">Besked: Test06 servicevindue den 4. december 2024 klokken 9:00 til den 5. december kl. 9:00
+
+05.12.2024: Servicevinduet blev ikke gennemført med succes. Miljøet er tilgængeligt, men testdata på miljøet er ikke opdateret. Der er ikke dataopdatering til miljøet.
 
 Der er planlagt servicevindue til opdatering af testdata på Test06 fra onsdag den 4. december 2024 klokken 9:00 til torsdag den 5. december klokken 9:00.
 
