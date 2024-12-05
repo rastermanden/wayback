@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2024-12-05T09:38:26Z</updated>
+  <updated>2024-12-05T09:45:58Z</updated>
   <entry>
     <id>54175</id>
     <title
@@ -50,6 +50,26 @@ Paralleldriften af Matriklen og Matriklen2 på Datafordeleren ophører den 10. d
 Register: Matriklen (MAT)&#xD;
 Status: I gang&#xD;
 Sagsreference: 55488&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>55781</id>
+    <title
+      type="text">DHM dataopdatering 2023</title>
+    <updated>2024-12-05T09:45:58Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/55781" />
+    <content
+      type="text">Besked: DHM dataopdatering 2023
+
+DHM 2023 data bliver opdateret i december.
+
+I øjeblikket er WMS og fildownload opdateret. De resterende bliver opdateret løbet af december.&#xD;
+Register: Danmarks Højdemodel&#xD;
+Service: Dataopdatering&#xD;
+Status: I gang&#xD;
+Sagsreference: 55781&#xD;
 </content>
   </entry>
   <entry>
