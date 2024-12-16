@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2024-12-16T21:12:14Z</updated>
+  <updated>2024-12-16T21:19:37Z</updated>
   <entry>
     <id>55921</id>
     <title
@@ -166,12 +166,14 @@ Sagsreference: 55991&#xD;
     <id>55725</id>
     <title
       type="text">Længere svartider på tjenester med geodata</title>
-    <updated>2024-12-06T12:55:00Z</updated>
+    <updated>2024-12-16T21:19:37Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/55725" />
     <content
       type="text">Besked: Længere svartider på tjenester med geodata
+
+16.12.2024 klokken 22:15: GeoDanmark Ortofoto 2024 WMS er nu tilgængelig på Datafordeleren. Læs også under Ændringer. 
 
 06.12.2024 klokken 13:30: Opdateret med link.
 
