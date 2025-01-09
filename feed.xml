@@ -145,24 +145,4 @@ Periode start: 1/1/0001 12:00:00 AM&#xD;
 Periode slut: 1/1/0001 12:00:00 AM&#xD;
 </content>
   </entry>
-  <entry>
-    <id>56370</id>
-    <title
-      type="text">Test06 webbaserede tjenester er utilgængelige.</title>
-    <updated>2025-01-06T12:52:20Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/56370" />
-    <content
-      type="text">Besked: Test06 webbaserede tjenester er utilgængelige
-
-06.01.2025 klokken 13:50: Problemet er løst og de webbaserede tjenester er tilbage i normal drift.
-
-06.01.2025 klokken 08:45: Webbaserede tjenester er i øjeblikket utilgængelig på Test06. Der bliver arbejdet på at løse problemet.&#xD;
-Register: Alle&#xD;
-Service: Webservice&#xD;
-Status: Løst&#xD;
-Sagsreference: 56370&#xD;
-</content>
-  </entry>
 </feed>
