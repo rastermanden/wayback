@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2025-03-11T09:32:16Z</updated>
+  <updated>2025-03-11T09:36:03Z</updated>
   <entry>
     <id>58533</id>
     <title
@@ -32,14 +32,14 @@ Periode slut: 1/1/0001 12:00:00 AM&#xD;
     <id>58820</id>
     <title
       type="text">Fejl 403 på tjenester med fortrolige data</title>
-    <updated>2025-03-11T09:32:16Z</updated>
+    <updated>2025-03-11T09:36:03Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/58820" />
     <content
       type="text">Besked: Fejl 403 på tjenester med fortrolige data
 
-Man kan i øjeblikket opleve en fejl 403 på tjenester med fortrolige data.
+11.03.2025 klokken 10:30: Man kan i øjeblikket opleve en fejl 403 på tjenester med fortrolige data.
 
 Dette gælder følgende registre:
 
