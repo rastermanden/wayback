@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2025-05-06T12:41:00Z</updated>
+  <updated>2025-05-06T12:58:43Z</updated>
   <entry>
     <id>60439</id>
     <title
@@ -81,19 +81,21 @@ Periode slut: 1/1/0001 12:00:00 AM&#xD;
     <id>60432</id>
     <title
       type="text">Test03: GraphQL, Fildownload (HTTPS) og WFS Geoserver er utilgængelige</title>
-    <updated>2025-05-06T11:10:15Z</updated>
+    <updated>2025-05-06T12:58:43Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/60432" />
     <content
       type="text">Besked: Test03: GraphQL, Fildownload (HTTPS) og WFS Geoserver er utilgængelige
 
+06.05.2025 klokken 15:00: Problemet er løst. GraphQL, Fildownload (HTTPS) og WFS Geoserver er igen tilgængelige på Test03.
+
 06.05.2025 klokken 13:00: Man kan i øjeblikket opleve, at GraphQL, Fildownload (HTTPS) og WFS Geoserver er utilgængelige på Test03.
 
 Der bliver arbejdet på at løse problemet.&#xD;
 Register: Alle&#xD;
 Service: Webservice, Fildownload (HTTPS)&#xD;
-Status: I gang&#xD;
+Status: Løst&#xD;
 Sagsreference: 60432&#xD;
 </content>
   </entry>
