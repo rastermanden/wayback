@@ -1,125 +1,766 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<feed
-  xmlns="http://www.w3.org/2005/Atom">
-  <title
-    type="text">Service Messages</title>
-  <subtitle
-    type="text"></subtitle>
-  <id>serviceMessages</id>
-  <updated>2025-05-12T10:06:37Z</updated>
-  <entry>
-    <id>60458</id>
-    <title
-      type="text">SSH-nøgler udfaser DSA signaturer</title>
-    <updated>2025-05-07T09:24:35Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/60458" />
-    <content
-      type="text">Besked: SSH-nøgler udfaser DSA signaturer
 
-Med virkning fra 25.06.2025 er det ikke længere muligt at bruge SSH-nøgler med DSA-signaturer på Datafordeleren. Det betyder, at alle anvendere der bruger DSA i deres SSH-nøgler herefter ikke længere vil kunne tilgå data fra Datafordeleren. 
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>Internal Server Error</title>
+        <style>
+            body {
+    font-family: 'Segoe UI', Tahoma, Arial, Helvetica, sans-serif;
+    font-size: .813em;
+    color: #222;
+}
 
-Læs mere om hvordan du udskifter din SSH-nøgle i Datafordelerens dokumentation:
-https://confluence.sdfi.dk/pages/viewpage.action?pageId=13665289
+h1, h2, h3, h4, h5 {
+    /*font-family: 'Segoe UI',Tahoma,Arial,Helvetica,sans-serif;*/
+    font-weight: 100;
+}
 
-Læs mere om hvordan du genererer din SSH-nøgle i Datafordelerens dokumentation:
-https://confluence.sdfi.dk/pages/viewpage.action?pageId=13665369&#xD;
-Register: Alle&#xD;
-Status: Planlagt&#xD;
-Sagsreference: 60458&#xD;
-Forventet fra: 1/1/0001 12:00:00 AM&#xD;
-Forventet til: 1/1/0001 12:00:00 AM&#xD;
-</content>
-  </entry>
-  <entry>
-    <id>60533</id>
-    <title
-      type="text">PROD servicevindue mandag den 12. maj 2025 klokken 19:30 - 21:00</title>
-    <updated>2025-05-12T07:33:06Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/60533" />
-    <content
-      type="text">Besked: PROD servicevindue mandag den 12. maj 2025 klokken 19:30 - 21:00
+h1 {
+    color: #44525e;
+    margin: 15px 0 15px 0;
+}
 
-Der er planlagt servicevindue på PROD mandag den 12. maj 2025 klokken 19:30 - 21:00.
+h2 {
+    margin: 10px 5px 0 0;
+}
 
-Anvendere kan i tidsrummet opleve utilgængelighed på webservices, filudtræk (FTP), hændelser og dataopdatering.
+h3 {
+    color: #363636;
+    margin: 5px 5px 0 0;
+}
 
-Vi beklager den korte varsel.&#xD;
-Register: Alle&#xD;
-Service: Webservice, Filudtræk (FTP), Hændelser, Dataopdatering, Selvbetjening&#xD;
-Status: Planlagt&#xD;
-Sagsreference: 60533&#xD;
-Periode start: 1/1/0001 12:00:00 AM&#xD;
-Periode slut: 1/1/0001 12:00:00 AM&#xD;
-</content>
-  </entry>
-  <entry>
-    <id>60293</id>
-    <title
-      type="text">PROD servicevindue tirsdag den 13. maj 2025 klokken 17:00 - 22:00</title>
-    <updated>2025-05-12T07:33:28Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/60293" />
-    <content
-      type="text">Besked: PROD servicevindue tirsdag den 13. maj 2025 klokken 17:00 - 22:00
+code {
+    font-family: Consolas, "Courier New", courier, monospace;
+}
 
-Der er planlagt servicevindue på PROD tirsdag den 13. maj 2025 klokken 17:00 - 22:00.
+body .titleerror {
+    padding: 3px 3px 6px 3px;
+    display: block;
+    font-size: 1.5em;
+    font-weight: 100;
+}
 
-Anvendere kan i tidsrummet opleve kortvarig nedetid på webservices, geodata-tjenester, hændelser og dataopdatering. Der vil være forsinkelse på generering af filudtræk (FTP), da de genstartes i perioden.&#xD;
-Register: Alle&#xD;
-Service: Webservice, Filudtræk (FTP)&#xD;
-Status: Planlagt&#xD;
-Sagsreference: 60293&#xD;
-Periode start: 1/1/0001 12:00:00 AM&#xD;
-Periode slut: 1/1/0001 12:00:00 AM&#xD;
-</content>
-  </entry>
-  <entry>
-    <id>60366</id>
-    <title
-      type="text">Fildownload (HTTPS) - fejl i data for DHM Punktsky og manglende data for GeoDKO12,5cm</title>
-    <updated>2025-05-09T09:35:22Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/60366" />
-    <content
-      type="text">Besked: Fildownload (HTTPS) - fejl i data for DHM Punktsky og manglende data for GeoDKO12,5cm
+body .location {
+    margin: 3px 0 10px 30px;
+}
 
-09.05.2025 Klokken 11:30: DHM Punktsky er i øjeblikket ikke tilgængelig. Fejl i data er fundet og i gang med at blive rettet. GeoDanmark Orthofoto 12,5 cm Fildownload (HTTPS) er igen med fuldt indhold i data.
+#header {
+    font-size: 18px;
+    padding: 15px 0;
+    border-top: 1px #ddd solid;
+    border-bottom: 1px #ddd solid;
+    margin-bottom: 0;
+}
 
-08.05.2025 klokken 12:00: Der bliver fortsat arbejdet på at løse problemet.
+    #header li {
+        display: inline;
+        margin: 5px;
+        padding: 5px;
+        color: #a0a0a0;
+        cursor: pointer;
+    }
 
-01.05.2025 klokken 16:20: Der er fejl i DHM Punktsky fildownload data, og der mangler data i GeoDanmark Orthofoto 12,5 cm fildownload. Der arbejdes på at løse problemet.&#xD;
-Register: Danmarks Højdemodel&#xD;
-Service: Fildownload (HTTPS)&#xD;
-Status: I gang&#xD;
-Sagsreference: 60366&#xD;
-</content>
-  </entry>
-  <entry>
-    <id>60534</id>
-    <title
-      type="text">EJF dataopdatering er stoppet i produktionsmiljøet</title>
-    <updated>2025-05-12T10:06:37Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/60534" />
-    <content
-      type="text">Besked: EJF dataopdatering er stoppet i produktionsmiljøet
+    #header .selected {
+        background: #44c5f2;
+        color: #fff;
+    }
 
-12.05.2025 klokken 12:00: Problemet er løst. EJF dataopdatering er tilbage i normal drift.
+#stackpage ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    /*border-bottom: 1px #ddd solid;*/
+}
 
-12.05.2025 klokken 08:30: EJF dataopdatering er stoppet i produktionsmiljøet, sidste opdatering var 11.05.2025 klokken 19:36:48.
+#stackpage .details {
+    font-size: 1.2em;
+    padding: 3px;
+    color: #000;
+}
 
-Der bliver arbejdet på at løse problemet.&#xD;
-Register: Ejerfortegnelsen (EJF)&#xD;
-Service: Dataopdatering&#xD;
-Status: Løst&#xD;
-Sagsreference: 60534&#xD;
-</content>
-  </entry>
-</feed>
+#stackpage .stackerror {
+    padding: 5px;
+    border-bottom: 1px #ddd solid;
+}
+
+
+#stackpage .frame {
+    padding: 0;
+    margin: 0 0 0 30px;
+}
+
+    #stackpage .frame h3 {
+        padding: 2px;
+        margin: 0;
+    }
+
+#stackpage .source {
+    padding: 0 0 0 30px;
+}
+
+    #stackpage .source ol li {
+        font-family: Consolas, "Courier New", courier, monospace;
+        white-space: pre;
+        background-color: #fbfbfb;
+    }
+
+#stackpage .frame .source .highlight {
+    border-left: 3px solid red;
+    margin-left: -3px;
+    font-weight: bold;
+}
+
+#stackpage .frame .source .highlight li span {
+    color: #FF0000;
+}
+
+#stackpage .source ol.collapsible li {
+    color: #888;
+}
+
+    #stackpage .source ol.collapsible li span {
+        color: #606060;
+    }
+
+.page table {
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 0 0 20px;
+}
+
+.page th {
+    vertical-align: bottom;
+    padding: 10px 5px 5px 5px;
+    font-weight: 400;
+    color: #a0a0a0;
+    text-align: left;
+}
+
+.page td {
+    padding: 3px 10px;
+}
+
+.page th, .page td {
+    border-right: 1px #ddd solid;
+    border-bottom: 1px #ddd solid;
+    border-left: 1px transparent solid;
+    border-top: 1px transparent solid;
+    box-sizing: border-box;
+}
+
+    .page th:last-child, .page td:last-child {
+        border-right: 1px transparent solid;
+    }
+
+.page .length {
+    text-align: right;
+}
+
+a {
+    color: #1ba1e2;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #13709e;
+        text-decoration: underline;
+    }
+
+.showRawException {
+    cursor: pointer;
+    color: #44c5f2;
+    background-color: transparent;
+    font-size: 1.2em;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    border: 0;
+    padding: 0;
+}
+
+.rawExceptionStackTrace {
+    font-size: 1.2em;
+}
+
+.rawExceptionBlock {
+    border-top: 1px #ddd solid;
+    border-bottom: 1px #ddd solid;
+}
+
+.showRawExceptionContainer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.expandCollapseButton {
+    cursor: pointer;
+    float: left;
+    height: 16px;
+    width: 16px;
+    font-size: 10px;
+    position: absolute;
+    left: 10px;
+    background-color: #eee;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+        </style>
+    </head>
+    <body>
+        <h1>An error occurred while starting the application.</h1>
+            <div class="titleerror">Win32Exception: The system cannot find the file specified.</div>
+                <p class="location">Unknown location</p>
+            <div class="titleerror">SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)</div>
+                <p class="location">Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, uint waitForMultipleObjectsTimeout, bool allowCreate, bool onlyOneCheckConnection, DbConnectionOptions userOptions, out DbConnectionInternal connection)</p>
+            <div class="titleerror">ResolutionException: Could not resolve Rebus.Transport.ITransport with decorator depth 0 - registrations: Rebus.Injection.Injectionist&#x2B;Handler</div>
+                <p class="location">Rebus.Injection.Injectionist&#x2B;ResolutionContext.Get&lt;TService&gt;()</p>
+            <div class="titleerror">InvalidOperationException: Error when trying to resolve default bus instance! No current message context was found (i.e. we&#x27;re not currently handling a message), so the default bus was requested from the service provider (via DefaultBusInstance). If you&#x27;d like to use IBus outside of message handlers, please remember to mark one of the bus registrations as being the default bus instance by setting isDefaultBus:true in one of the calls to AddRebus.</div>
+                <p class="location">Rebus.ServiceProvider.Internals.RebusResolver.GetBus(IServiceProvider serviceProvider)</p>
+        <div id="stackpage" class="page">
+            <ul>
+                    <li>
+                        <h2 class="stackerror">Win32Exception: The system cannot find the file specified.</h2>
+                        <ul>
+                        </ul>
+                    </li>
+                    <li>
+                        <br/>
+                        <div class="rawExceptionBlock">
+                            <div class="showRawExceptionContainer">
+                                <button class="showRawException" data-exceptionDetailId="exceptionDetail1">Show raw exception details</button>
+                            </div>
+                            <div id="exceptionDetail1" class="rawExceptionDetails">
+                                <pre class="rawExceptionStackTrace">System.ComponentModel.Win32Exception (2): The system cannot find the file specified.</pre>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="stackerror">SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)</h2>
+                        <ul>
+                            <li class="frame" id="frame1">
+                                    <h3>Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, uint waitForMultipleObjectsTimeout, bool allowCreate, bool onlyOneCheckConnection, DbConnectionOptions userOptions, out DbConnectionInternal connection)</h3>
+
+                            </li>
+                            <li class="frame" id="frame2">
+                                    <h3>Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource&lt;DbConnectionInternal&gt; retry, DbConnectionOptions userOptions, out DbConnectionInternal connection)</h3>
+
+                            </li>
+                            <li class="frame" id="frame3">
+                                    <h3>Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource&lt;DbConnectionInternal&gt; retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, out DbConnectionInternal connection)</h3>
+
+                            </li>
+                            <li class="frame" id="frame4">
+                                    <h3>Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource&lt;DbConnectionInternal&gt; retry, DbConnectionOptions userOptions)</h3>
+
+                            </li>
+                            <li class="frame" id="frame5">
+                                    <h3>Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource&lt;DbConnectionInternal&gt; retry, DbConnectionOptions userOptions)</h3>
+
+                            </li>
+                            <li class="frame" id="frame6">
+                                    <h3>Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource&lt;DbConnectionInternal&gt; retry, SqlConnectionOverrides overrides)</h3>
+
+                            </li>
+                            <li class="frame" id="frame7">
+                                    <h3>Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)</h3>
+
+                            </li>
+                            <li class="frame" id="frame8">
+                                    <h3>Microsoft.Data.SqlClient.SqlConnection.Open()</h3>
+
+                            </li>
+                            <li class="frame" id="frame9">
+                                    <h3>Rebus.SqlServer.DbConnectionProvider.CreateSqlConnectionSuppressingAPossibleAmbientTransaction()</h3>
+
+                            </li>
+                            <li class="frame" id="frame10">
+                                    <h3>Rebus.SqlServer.DbConnectionProvider.GetConnection()</h3>
+
+                            </li>
+                            <li class="frame" id="frame11">
+                                    <h3>Rebus.SqlServer.Transport.SqlServerTransport.InnerEnsureTableIsCreatedAsync(TableName tableName)</h3>
+
+                            </li>
+                            <li class="frame" id="frame12">
+                                    <h3>Rebus.SqlServer.Transport.SqlServerTransport.EnsureTableIsCreatedAsync(TableName tableName)</h3>
+
+                            </li>
+                            <li class="frame" id="frame13">
+                                    <h3>Rebus.SqlServer.AsyncHelpers&#x2B;CustomSynchronizationContext.&lt;Run&gt;b__7_0(object _)</h3>
+
+                            </li>
+                            <li class="frame" id="frame14">
+                                    <h3>Rebus.SqlServer.AsyncHelpers&#x2B;CustomSynchronizationContext.Run()</h3>
+
+                            </li>
+                            <li class="frame" id="frame15">
+                                    <h3>Rebus.SqlServer.AsyncHelpers.RunSync(Func&lt;Task&gt; task)</h3>
+
+                            </li>
+                            <li class="frame" id="frame16">
+                                    <h3>Rebus.SqlServer.Transport.SqlServerTransport.EnsureTableIsCreated()</h3>
+
+                            </li>
+                            <li class="frame" id="frame17">
+                                    <h3>Rebus.Config.SqlServerTransportConfigurationExtensions&#x2B;&lt;&gt;c__DisplayClass13_0&lt;TTransportOptions&gt;.&lt;Configure&gt;b__0(IResolutionContext context)</h3>
+
+                            </li>
+                            <li class="frame" id="frame18">
+                                    <h3>Rebus.Injection.Injectionist&#x2B;Resolver&lt;TService&gt;.InvokeResolver(IResolutionContext context)</h3>
+
+                            </li>
+                            <li class="frame" id="frame19">
+                                    <h3>Rebus.Injection.Injectionist&#x2B;ResolutionContext.Get&lt;TService&gt;()</h3>
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <br/>
+                        <div class="rawExceptionBlock">
+                            <div class="showRawExceptionContainer">
+                                <button class="showRawException" data-exceptionDetailId="exceptionDetail2">Show raw exception details</button>
+                            </div>
+                            <div id="exceptionDetail2" class="rawExceptionDetails">
+                                <pre class="rawExceptionStackTrace">Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)&#xD;&#xA; ---&gt; System.ComponentModel.Win32Exception (2): The system cannot find the file specified.&#xD;&#xA;   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)&#xD;&#xA;   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)&#xD;&#xA;   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)&#xD;&#xA;   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)&#xD;&#xA;   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)&#xD;&#xA;   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)&#xD;&#xA;   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)&#xD;&#xA;   at Microsoft.Data.SqlClient.SqlConnection.Open()&#xD;&#xA;   at Rebus.SqlServer.DbConnectionProvider.CreateSqlConnectionSuppressingAPossibleAmbientTransaction()&#xD;&#xA;   at Rebus.SqlServer.DbConnectionProvider.GetConnection()&#xD;&#xA;   at Rebus.SqlServer.Transport.SqlServerTransport.InnerEnsureTableIsCreatedAsync(TableName tableName)&#xD;&#xA;   at Rebus.SqlServer.Transport.SqlServerTransport.EnsureTableIsCreatedAsync(TableName tableName)&#xD;&#xA;   at Rebus.SqlServer.AsyncHelpers.CustomSynchronizationContext.&lt;Run&gt;b__7_0(Object _)&#xD;&#xA;   at Rebus.SqlServer.AsyncHelpers.CustomSynchronizationContext.Run()&#xD;&#xA;   at Rebus.SqlServer.AsyncHelpers.RunSync(Func`1 task)&#xD;&#xA;   at Rebus.SqlServer.Transport.SqlServerTransport.EnsureTableIsCreated()&#xD;&#xA;   at Rebus.Config.SqlServerTransportConfigurationExtensions.&lt;&gt;c__DisplayClass13_0`1.&lt;Configure&gt;b__0(IResolutionContext context)&#xD;&#xA;   at Rebus.Injection.Injectionist.Resolver`1.InvokeResolver(IResolutionContext context)&#xD;&#xA;   at Rebus.Injection.Injectionist.ResolutionContext.Get[TService]()&#xD;&#xA;ClientConnectionId:00000000-0000-0000-0000-000000000000&#xD;&#xA;Error Number:2,State:0,Class:20</pre>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="stackerror">ResolutionException: Could not resolve Rebus.Transport.ITransport with decorator depth 0 - registrations: Rebus.Injection.Injectionist&#x2B;Handler</h2>
+                        <ul>
+                            <li class="frame" id="frame20">
+                                    <h3>Rebus.Injection.Injectionist&#x2B;ResolutionContext.Get&lt;TService&gt;()</h3>
+
+                            </li>
+                            <li class="frame" id="frame21">
+                                    <h3>Rebus.Config.RebusConfigurer&#x2B;&lt;&gt;c.&lt;Start&gt;b__14_14(IResolutionContext c)</h3>
+
+                            </li>
+                            <li class="frame" id="frame22">
+                                    <h3>Rebus.Injection.Injectionist&#x2B;Resolver&lt;TService&gt;.InvokeResolver(IResolutionContext context)</h3>
+
+                            </li>
+                            <li class="frame" id="frame23">
+                                    <h3>Rebus.Injection.Injectionist&#x2B;ResolutionContext.Get&lt;TService&gt;()</h3>
+
+                            </li>
+                            <li class="frame" id="frame24">
+                                    <h3>Rebus.Config.RebusConfigurer&#x2B;&lt;&gt;c__DisplayClass14_0.&lt;Start&gt;b__29(IResolutionContext c)</h3>
+
+                            </li>
+                            <li class="frame" id="frame25">
+                                    <h3>Rebus.Injection.Injectionist&#x2B;Resolver&lt;TService&gt;.InvokeResolver(IResolutionContext context)</h3>
+
+                            </li>
+                            <li class="frame" id="frame26">
+                                    <h3>Rebus.Injection.Injectionist&#x2B;ResolutionContext.Get&lt;TService&gt;()</h3>
+
+                            </li>
+                            <li class="frame" id="frame27">
+                                    <h3>Rebus.Config.RebusConfigurer&#x2B;&lt;&gt;c__DisplayClass14_0.&lt;Start&gt;b__30(IResolutionContext c)</h3>
+
+                            </li>
+                            <li class="frame" id="frame28">
+                                    <h3>Rebus.Injection.Injectionist&#x2B;Resolver&lt;TService&gt;.InvokeResolver(IResolutionContext context)</h3>
+
+                            </li>
+                            <li class="frame" id="frame29">
+                                    <h3>Rebus.Injection.Injectionist&#x2B;ResolutionContext.Get&lt;TService&gt;()</h3>
+
+                            </li>
+                            <li class="frame" id="frame30">
+                                    <h3>Rebus.Injection.Injectionist.Get&lt;TService&gt;()</h3>
+
+                            </li>
+                            <li class="frame" id="frame31">
+                                    <h3>Rebus.Config.RebusConfigurer.Start()</h3>
+
+                            </li>
+                            <li class="frame" id="frame32">
+                                    <h3>Rebus.Config.DelayedStartupConfigurationExtensions.Create(RebusConfigurer configurer)</h3>
+
+                            </li>
+                            <li class="frame" id="frame33">
+                                    <h3>Rebus.ServiceProvider.Internals.RebusInitializer.&lt;GetLazyInitializer&gt;b__9_0()</h3>
+
+                            </li>
+                            <li class="frame" id="frame34">
+                                    <h3>Rebus.ServiceProvider.Internals.DefaultBusInstance&#x2B;&lt;&gt;c__DisplayClass1_1&#x2B;&lt;&lt;SetInstanceResolver&gt;b__1&gt;d.MoveNext()</h3>
+
+                            </li>
+                            <li class="frame" id="frame35">
+                                    <h3>Rebus.ServiceProvider.Internals.AsyncHelpers&#x2B;CustomSynchronizationContext.&lt;Run&gt;b__7_0(object _)</h3>
+
+                            </li>
+                            <li class="frame" id="frame36">
+                                    <h3>Rebus.ServiceProvider.Internals.AsyncHelpers&#x2B;CustomSynchronizationContext.Run()</h3>
+
+                            </li>
+                            <li class="frame" id="frame37">
+                                    <h3>Rebus.ServiceProvider.Internals.AsyncHelpers.RunSync(Func&lt;Task&gt; task)</h3>
+
+                            </li>
+                            <li class="frame" id="frame38">
+                                    <h3>Rebus.ServiceProvider.Internals.DefaultBusInstance&#x2B;&lt;&gt;c__DisplayClass1_0.&lt;SetInstanceResolver&gt;b__0()</h3>
+
+                            </li>
+                            <li class="frame" id="frame39">
+                                    <h3>System.Lazy&lt;T&gt;.ViaFactory(LazyThreadSafetyMode mode)</h3>
+
+                            </li>
+                            <li class="frame" id="frame40">
+                                    <h3>System.Lazy&lt;T&gt;.ExecutionAndPublication(LazyHelper executionAndPublication, bool useDefaultConstructor)</h3>
+
+                            </li>
+                            <li class="frame" id="frame41">
+                                    <h3>System.Lazy&lt;T&gt;.CreateValue()</h3>
+
+                            </li>
+                            <li class="frame" id="frame42">
+                                    <h3>System.Lazy&lt;T&gt;.get_Value()</h3>
+
+                            </li>
+                            <li class="frame" id="frame43">
+                                    <h3>Rebus.ServiceProvider.Internals.DefaultBusInstance.get_Bus()</h3>
+
+                            </li>
+                            <li class="frame" id="frame44">
+                                    <h3>Rebus.ServiceProvider.Internals.RebusResolver.GetBus(IServiceProvider serviceProvider)</h3>
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <br/>
+                        <div class="rawExceptionBlock">
+                            <div class="showRawExceptionContainer">
+                                <button class="showRawException" data-exceptionDetailId="exceptionDetail3">Show raw exception details</button>
+                            </div>
+                            <div id="exceptionDetail3" class="rawExceptionDetails">
+                                <pre class="rawExceptionStackTrace">Rebus.Injection.ResolutionException: Could not resolve Rebus.Transport.ITransport with decorator depth 0 - registrations: Rebus.Injection.Injectionist&#x2B;Handler&#xD;&#xA; ---&gt; Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)&#xD;&#xA; ---&gt; System.ComponentModel.Win32Exception (2): The system cannot find the file specified.&#xD;&#xA;   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)&#xD;&#xA;   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)&#xD;&#xA;   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)&#xD;&#xA;   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)&#xD;&#xA;   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)&#xD;&#xA;   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)&#xD;&#xA;   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)&#xD;&#xA;   at Microsoft.Data.SqlClient.SqlConnection.Open()&#xD;&#xA;   at Rebus.SqlServer.DbConnectionProvider.CreateSqlConnectionSuppressingAPossibleAmbientTransaction()&#xD;&#xA;   at Rebus.SqlServer.DbConnectionProvider.GetConnection()&#xD;&#xA;   at Rebus.SqlServer.Transport.SqlServerTransport.InnerEnsureTableIsCreatedAsync(TableName tableName)&#xD;&#xA;   at Rebus.SqlServer.Transport.SqlServerTransport.EnsureTableIsCreatedAsync(TableName tableName)&#xD;&#xA;   at Rebus.SqlServer.AsyncHelpers.CustomSynchronizationContext.&lt;Run&gt;b__7_0(Object _)&#xD;&#xA;   at Rebus.SqlServer.AsyncHelpers.CustomSynchronizationContext.Run()&#xD;&#xA;   at Rebus.SqlServer.AsyncHelpers.RunSync(Func`1 task)&#xD;&#xA;   at Rebus.SqlServer.Transport.SqlServerTransport.EnsureTableIsCreated()&#xD;&#xA;   at Rebus.Config.SqlServerTransportConfigurationExtensions.&lt;&gt;c__DisplayClass13_0`1.&lt;Configure&gt;b__0(IResolutionContext context)&#xD;&#xA;   at Rebus.Injection.Injectionist.Resolver`1.InvokeResolver(IResolutionContext context)&#xD;&#xA;   at Rebus.Injection.Injectionist.ResolutionContext.Get[TService]()&#xD;&#xA;ClientConnectionId:00000000-0000-0000-0000-000000000000&#xD;&#xA;Error Number:2,State:0,Class:20&#xD;&#xA;   --- End of inner exception stack trace ---&#xD;&#xA;   at Rebus.Injection.Injectionist.ResolutionContext.Get[TService]()&#xD;&#xA;   at Rebus.Config.RebusConfigurer.&lt;&gt;c.&lt;Start&gt;b__14_14(IResolutionContext c)&#xD;&#xA;   at Rebus.Injection.Injectionist.Resolver`1.InvokeResolver(IResolutionContext context)&#xD;&#xA;   at Rebus.Injection.Injectionist.ResolutionContext.Get[TService]()&#xD;&#xA;   at Rebus.Config.RebusConfigurer.&lt;&gt;c__DisplayClass14_0.&lt;Start&gt;b__29(IResolutionContext c)&#xD;&#xA;   at Rebus.Injection.Injectionist.Resolver`1.InvokeResolver(IResolutionContext context)&#xD;&#xA;   at Rebus.Injection.Injectionist.ResolutionContext.Get[TService]()&#xD;&#xA;   at Rebus.Config.RebusConfigurer.&lt;&gt;c__DisplayClass14_0.&lt;Start&gt;b__30(IResolutionContext c)&#xD;&#xA;   at Rebus.Injection.Injectionist.Resolver`1.InvokeResolver(IResolutionContext context)&#xD;&#xA;   at Rebus.Injection.Injectionist.ResolutionContext.Get[TService]()&#xD;&#xA;   at Rebus.Injection.Injectionist.Get[TService]()&#xD;&#xA;   at Rebus.Config.RebusConfigurer.Start()&#xD;&#xA;   at Rebus.Config.DelayedStartupConfigurationExtensions.Create(RebusConfigurer configurer)&#xD;&#xA;   at Rebus.ServiceProvider.Internals.RebusInitializer.&lt;GetLazyInitializer&gt;b__9_0()&#xD;&#xA;   at Rebus.ServiceProvider.Internals.DefaultBusInstance.&lt;&gt;c__DisplayClass1_1.&lt;&lt;SetInstanceResolver&gt;b__1&gt;d.MoveNext()&#xD;&#xA;--- End of stack trace from previous location ---&#xD;&#xA;   at Rebus.ServiceProvider.Internals.AsyncHelpers.CustomSynchronizationContext.&lt;Run&gt;b__7_0(Object _)&#xD;&#xA;   at Rebus.ServiceProvider.Internals.AsyncHelpers.CustomSynchronizationContext.Run()&#xD;&#xA;   at Rebus.ServiceProvider.Internals.AsyncHelpers.RunSync(Func`1 task)&#xD;&#xA;   at Rebus.ServiceProvider.Internals.DefaultBusInstance.&lt;&gt;c__DisplayClass1_0.&lt;SetInstanceResolver&gt;b__0()&#xD;&#xA;   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)&#xD;&#xA;   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)&#xD;&#xA;   at System.Lazy`1.CreateValue()&#xD;&#xA;   at System.Lazy`1.get_Value()&#xD;&#xA;   at Rebus.ServiceProvider.Internals.DefaultBusInstance.get_Bus()&#xD;&#xA;   at Rebus.ServiceProvider.Internals.RebusResolver.GetBus(IServiceProvider serviceProvider)</pre>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="stackerror">InvalidOperationException: Error when trying to resolve default bus instance! No current message context was found (i.e. we&#x27;re not currently handling a message), so the default bus was requested from the service provider (via DefaultBusInstance). If you&#x27;d like to use IBus outside of message handlers, please remember to mark one of the bus registrations as being the default bus instance by setting isDefaultBus:true in one of the calls to AddRebus.</h2>
+                        <ul>
+                            <li class="frame" id="frame45">
+                                    <h3>Rebus.ServiceProvider.Internals.RebusResolver.GetBus(IServiceProvider serviceProvider)</h3>
+
+                            </li>
+                            <li class="frame" id="frame46">
+                                    <h3>Rebus.Config.ServiceCollectionExtensions&#x2B;&lt;&gt;c.&lt;AddRebus&gt;b__1_8(IServiceProvider p)</h3>
+
+                            </li>
+                            <li class="frame" id="frame47">
+                                    <h3>Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)</h3>
+
+                            </li>
+                            <li class="frame" id="frame48">
+                                    <h3>Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor&lt;TArgument, TResult&gt;.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)</h3>
+
+                            </li>
+                            <li class="frame" id="frame49">
+                                    <h3>Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)</h3>
+
+                            </li>
+                            <li class="frame" id="frame50">
+                                    <h3>Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor&lt;TArgument, TResult&gt;.VisitCallSite(ServiceCallSite callSite, TArgument argument)</h3>
+
+                            </li>
+                            <li class="frame" id="frame51">
+                                    <h3>Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)</h3>
+
+                            </li>
+                            <li class="frame" id="frame52">
+                                    <h3>Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor&lt;TArgument, TResult&gt;.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)</h3>
+
+                            </li>
+                            <li class="frame" id="frame53">
+                                    <h3>Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)</h3>
+
+                            </li>
+                            <li class="frame" id="frame54">
+                                    <h3>Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor&lt;TArgument, TResult&gt;.VisitCallSite(ServiceCallSite callSite, TArgument argument)</h3>
+
+                            </li>
+                            <li class="frame" id="frame55">
+                                    <h3>Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)</h3>
+
+                            </li>
+                            <li class="frame" id="frame56">
+                                    <h3>Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor&lt;TArgument, TResult&gt;.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)</h3>
+
+                            </li>
+                            <li class="frame" id="frame57">
+                                    <h3>Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor&lt;TArgument, TResult&gt;.VisitNoCache(ServiceCallSite callSite, TArgument argument)</h3>
+
+                            </li>
+                            <li class="frame" id="frame58">
+                                    <h3>Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor&lt;TArgument, TResult&gt;.VisitCallSite(ServiceCallSite callSite, TArgument argument)</h3>
+
+                            </li>
+                            <li class="frame" id="frame59">
+                                    <h3>Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)</h3>
+
+                            </li>
+                            <li class="frame" id="frame60">
+                                    <h3>Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine&#x2B;&lt;&gt;c__DisplayClass2_0.&lt;RealizeService&gt;b__0(ServiceProviderEngineScope scope)</h3>
+
+                            </li>
+                            <li class="frame" id="frame61">
+                                    <h3>Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)</h3>
+
+                            </li>
+                            <li class="frame" id="frame62">
+                                    <h3>Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)</h3>
+
+                            </li>
+                            <li class="frame" id="frame63">
+                                    <h3>Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)</h3>
+
+                            </li>
+                            <li class="frame" id="frame64">
+                                    <h3>Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService&lt;T&gt;(IServiceProvider provider)</h3>
+
+                            </li>
+                            <li class="frame" id="frame65">
+                                    <h3>Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)</h3>
+
+                            </li>
+                            <li class="frame" id="frame66">
+                                    <h3>Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)</h3>
+
+                            </li>
+                            <li class="frame" id="frame67">
+                                    <h3>Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)</h3>
+
+                            </li>
+                            <li class="frame" id="frame68">
+                                    <h3>Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)</h3>
+
+                            </li>
+                            <li class="frame" id="frame69">
+                                    <h3>Datafordeler.Web.Program.Main(string[] args) in <code title="/src/Web/Program.cs">Program.cs</code></h3>
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <br/>
+                        <div class="rawExceptionBlock">
+                            <div class="showRawExceptionContainer">
+                                <button class="showRawException" data-exceptionDetailId="exceptionDetail4">Show raw exception details</button>
+                            </div>
+                            <div id="exceptionDetail4" class="rawExceptionDetails">
+                                <pre class="rawExceptionStackTrace">System.InvalidOperationException: Error when trying to resolve default bus instance! No current message context was found (i.e. we&#x27;re not currently handling a message), so the default bus was requested from the service provider (via DefaultBusInstance). If you&#x27;d like to use IBus outside of message handlers, please remember to mark one of the bus registrations as being the default bus instance by setting isDefaultBus:true in one of the calls to AddRebus.&#xD;&#xA; ---&gt; Rebus.Injection.ResolutionException: Could not resolve Rebus.Transport.ITransport with decorator depth 0 - registrations: Rebus.Injection.Injectionist&#x2B;Handler&#xD;&#xA; ---&gt; Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)&#xD;&#xA; ---&gt; System.ComponentModel.Win32Exception (2): The system cannot find the file specified.&#xD;&#xA;   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)&#xD;&#xA;   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)&#xD;&#xA;   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)&#xD;&#xA;   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)&#xD;&#xA;   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)&#xD;&#xA;   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)&#xD;&#xA;   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)&#xD;&#xA;   at Microsoft.Data.SqlClient.SqlConnection.Open()&#xD;&#xA;   at Rebus.SqlServer.DbConnectionProvider.CreateSqlConnectionSuppressingAPossibleAmbientTransaction()&#xD;&#xA;   at Rebus.SqlServer.DbConnectionProvider.GetConnection()&#xD;&#xA;   at Rebus.SqlServer.Transport.SqlServerTransport.InnerEnsureTableIsCreatedAsync(TableName tableName)&#xD;&#xA;   at Rebus.SqlServer.Transport.SqlServerTransport.EnsureTableIsCreatedAsync(TableName tableName)&#xD;&#xA;   at Rebus.SqlServer.AsyncHelpers.CustomSynchronizationContext.&lt;Run&gt;b__7_0(Object _)&#xD;&#xA;   at Rebus.SqlServer.AsyncHelpers.CustomSynchronizationContext.Run()&#xD;&#xA;   at Rebus.SqlServer.AsyncHelpers.RunSync(Func`1 task)&#xD;&#xA;   at Rebus.SqlServer.Transport.SqlServerTransport.EnsureTableIsCreated()&#xD;&#xA;   at Rebus.Config.SqlServerTransportConfigurationExtensions.&lt;&gt;c__DisplayClass13_0`1.&lt;Configure&gt;b__0(IResolutionContext context)&#xD;&#xA;   at Rebus.Injection.Injectionist.Resolver`1.InvokeResolver(IResolutionContext context)&#xD;&#xA;   at Rebus.Injection.Injectionist.ResolutionContext.Get[TService]()&#xD;&#xA;ClientConnectionId:00000000-0000-0000-0000-000000000000&#xD;&#xA;Error Number:2,State:0,Class:20&#xD;&#xA;   --- End of inner exception stack trace ---&#xD;&#xA;   at Rebus.Injection.Injectionist.ResolutionContext.Get[TService]()&#xD;&#xA;   at Rebus.Config.RebusConfigurer.&lt;&gt;c.&lt;Start&gt;b__14_14(IResolutionContext c)&#xD;&#xA;   at Rebus.Injection.Injectionist.Resolver`1.InvokeResolver(IResolutionContext context)&#xD;&#xA;   at Rebus.Injection.Injectionist.ResolutionContext.Get[TService]()&#xD;&#xA;   at Rebus.Config.RebusConfigurer.&lt;&gt;c__DisplayClass14_0.&lt;Start&gt;b__29(IResolutionContext c)&#xD;&#xA;   at Rebus.Injection.Injectionist.Resolver`1.InvokeResolver(IResolutionContext context)&#xD;&#xA;   at Rebus.Injection.Injectionist.ResolutionContext.Get[TService]()&#xD;&#xA;   at Rebus.Config.RebusConfigurer.&lt;&gt;c__DisplayClass14_0.&lt;Start&gt;b__30(IResolutionContext c)&#xD;&#xA;   at Rebus.Injection.Injectionist.Resolver`1.InvokeResolver(IResolutionContext context)&#xD;&#xA;   at Rebus.Injection.Injectionist.ResolutionContext.Get[TService]()&#xD;&#xA;   at Rebus.Injection.Injectionist.Get[TService]()&#xD;&#xA;   at Rebus.Config.RebusConfigurer.Start()&#xD;&#xA;   at Rebus.Config.DelayedStartupConfigurationExtensions.Create(RebusConfigurer configurer)&#xD;&#xA;   at Rebus.ServiceProvider.Internals.RebusInitializer.&lt;GetLazyInitializer&gt;b__9_0()&#xD;&#xA;   at Rebus.ServiceProvider.Internals.DefaultBusInstance.&lt;&gt;c__DisplayClass1_1.&lt;&lt;SetInstanceResolver&gt;b__1&gt;d.MoveNext()&#xD;&#xA;--- End of stack trace from previous location ---&#xD;&#xA;   at Rebus.ServiceProvider.Internals.AsyncHelpers.CustomSynchronizationContext.&lt;Run&gt;b__7_0(Object _)&#xD;&#xA;   at Rebus.ServiceProvider.Internals.AsyncHelpers.CustomSynchronizationContext.Run()&#xD;&#xA;   at Rebus.ServiceProvider.Internals.AsyncHelpers.RunSync(Func`1 task)&#xD;&#xA;   at Rebus.ServiceProvider.Internals.DefaultBusInstance.&lt;&gt;c__DisplayClass1_0.&lt;SetInstanceResolver&gt;b__0()&#xD;&#xA;   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)&#xD;&#xA;   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)&#xD;&#xA;   at System.Lazy`1.CreateValue()&#xD;&#xA;   at System.Lazy`1.get_Value()&#xD;&#xA;   at Rebus.ServiceProvider.Internals.DefaultBusInstance.get_Bus()&#xD;&#xA;   at Rebus.ServiceProvider.Internals.RebusResolver.GetBus(IServiceProvider serviceProvider)&#xD;&#xA;   --- End of inner exception stack trace ---&#xD;&#xA;   at Rebus.ServiceProvider.Internals.RebusResolver.GetBus(IServiceProvider serviceProvider)&#xD;&#xA;   at Rebus.Config.ServiceCollectionExtensions.&lt;&gt;c.&lt;AddRebus&gt;b__1_8(IServiceProvider p)&#xD;&#xA;   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)&#xD;&#xA;   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)&#xD;&#xA;   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)&#xD;&#xA;   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)&#xD;&#xA;   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)&#xD;&#xA;   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)&#xD;&#xA;   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)&#xD;&#xA;   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)&#xD;&#xA;   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)&#xD;&#xA;   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)&#xD;&#xA;   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitNoCache(ServiceCallSite callSite, TArgument argument)&#xD;&#xA;   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)&#xD;&#xA;   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)&#xD;&#xA;   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.&lt;&gt;c__DisplayClass2_0.&lt;RealizeService&gt;b__0(ServiceProviderEngineScope scope)&#xD;&#xA;   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)&#xD;&#xA;   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)&#xD;&#xA;   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)&#xD;&#xA;   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)&#xD;&#xA;   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)&#xD;&#xA;   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)&#xD;&#xA;   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)&#xD;&#xA;   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)&#xD;&#xA;   at Datafordeler.Web.Program.Main(String[] args) in /src/Web/Program.cs:line 6</pre>
+                            </div>
+                        </div>
+                    </li>
+            </ul>
+        </div>
+            <footer>
+                .NET 8.0.2 X64 v8.0.0.0 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Microsoft.AspNetCore.Hosting version 8.0.2&#x2B;da7e9894ce22ef8cc02e5acc56e95a6f8cf8f644 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Microsoft Windows 10.0.14393 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://go.microsoft.com/fwlink/?LinkId=517394">Need help?</a>
+            </footer>
+        <script>
+            //<!--
+            (function (window, undefined) {
+    "use strict";
+
+    function ns(selector, element) {
+        return new NodeCollection(selector, element);
+    }
+
+    function NodeCollection(selector, element) {
+        this.items = [];
+        element = element || window.document;
+
+        var nodeList;
+
+        if (typeof (selector) === "string") {
+            nodeList = element.querySelectorAll(selector);
+            for (var i = 0, l = nodeList.length; i < l; i++) {
+                this.items.push(nodeList.item(i));
+            }
+        }
+    }
+
+    NodeCollection.prototype = {
+        each: function (callback) {
+            for (var i = 0, l = this.items.length; i < l; i++) {
+                callback(this.items[i], i);
+            }
+            return this;
+        },
+
+        children: function (selector) {
+            var children = [];
+
+            this.each(function (el) {
+                children = children.concat(ns(selector, el).items);
+            });
+
+            return ns(children);
+        },
+
+        hide: function () {
+            this.each(function (el) {
+                el.style.display = "none";
+            });
+
+            return this;
+        },
+
+        toggle: function () {
+            this.each(function (el) {
+                el.style.display = el.style.display === "none" ? "" : "none";
+            });
+
+            return this;
+        },
+
+        show: function () {
+            this.each(function (el) {
+                el.style.display = "";
+            });
+
+            return this;
+        },
+
+        addClass: function (className) {
+            this.each(function (el) {
+                var existingClassName = el.className,
+                    classNames;
+                if (!existingClassName) {
+                    el.className = className;
+                } else {
+                    classNames = existingClassName.split(" ");
+                    if (classNames.indexOf(className) < 0) {
+                        el.className = existingClassName + " " + className;
+                    }
+                }
+            });
+
+            return this;
+        },
+
+        removeClass: function (className) {
+            this.each(function (el) {
+                var existingClassName = el.className,
+                    classNames, index;
+                if (existingClassName === className) {
+                    el.className = "";
+                } else if (existingClassName) {
+                    classNames = existingClassName.split(" ");
+                    index = classNames.indexOf(className);
+                    if (index > 0) {
+                        classNames.splice(index, 1);
+                        el.className = classNames.join(" ");
+                    }
+                }
+            });
+
+            return this;
+        },
+
+        attr: function (name) {
+            if (this.items.length === 0) {
+                return null;
+            }
+
+            return this.items[0].getAttribute(name);
+        },
+
+        on: function (eventName, handler) {
+            this.each(function (el, idx) {
+                var callback = function (e) {
+                    e = e || window.event;
+                    if (!e.which && e.keyCode) {
+                        e.which = e.keyCode; // Normalize IE8 key events
+                    }
+                    handler.apply(el, [e]);
+                };
+
+                if (el.addEventListener) { // DOM Events
+                    el.addEventListener(eventName, callback, false);
+                } else if (el.attachEvent) { // IE8 events
+                    el.attachEvent("on" + eventName, callback);
+                } else {
+                    el["on" + type] = callback;
+                }
+            });
+
+            return this;
+        },
+
+        click: function (handler) {
+            return this.on("click", handler);
+        },
+
+        keypress: function (handler) {
+            return this.on("keypress", handler);
+        }
+    };
+
+    function frame(el) {
+        ns(".source .collapsible", el).toggle();
+    }
+
+    function expandCollapseButton(el) {
+        var frameId = el.getAttribute("data-frameId");
+        frame(document.getElementById(frameId));
+        if (el.innerText === "+") {
+            el.innerText = "-";
+        }
+        else {
+            el.innerText = "+";
+        }
+    }
+
+    function tab(el) {
+        var unselected = ns("#header .selected").removeClass("selected").attr("id");
+        var selected = ns("#" + el.id).addClass("selected").attr("id");
+
+        ns("#" + unselected + "page").hide();
+        ns("#" + selected + "page").show();
+    }
+
+    ns(".rawExceptionDetails").hide();
+    ns(".collapsible").hide();
+    ns(".page").hide();
+    ns("#stackpage").show();
+
+    ns(".expandCollapseButton")
+        .click(function () {
+            expandCollapseButton(this);
+        })
+        .keypress(function (e) {
+            if (e.which === 13) {
+                expandCollapseButton(this);
+            }
+        });
+
+    ns("#header li")
+        .click(function () {
+            tab(this);
+        })
+        .keypress(function (e) {
+            if (e.which === 13) {
+                tab(this);
+            }
+        });
+
+    ns(".showRawException")
+        .click(function () {
+            var exceptionDetailId = this.getAttribute("data-exceptionDetailId");
+            ns("#" + exceptionDetailId).toggle();
+        });
+})(window);
+            //-->
+        </script>
+</body>
+</html>
