@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2025-05-19T10:11:02Z</updated>
+  <updated>2025-05-19T10:23:26Z</updated>
   <entry>
     <id>60705</id>
     <title
@@ -56,7 +56,7 @@ Forventet til: 1/1/0001 12:00:00 AM&#xD;
     <id>60591</id>
     <title
       type="text">Test03,Test04 og Test06 servicevindue onsdag den 28. maj 2025 fra klokken 17:00 til torsdag den 29. maj 2025 klokken 02:00</title>
-    <updated>2025-05-14T10:03:09Z</updated>
+    <updated>2025-05-19T10:23:26Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/60591" />
@@ -65,7 +65,7 @@ Forventet til: 1/1/0001 12:00:00 AM&#xD;
 
 Der er planlagt servicevindue på Test03, Test04 og Test06 onsdag den 28. maj 2025 fra klokken 17:00 til torsdag den 29. maj 2025 klokken 02:00.
 
-Under servicevinduet kan man som anvender opleve periodevis utilgængelighed på alle tjenester og afbrydelser i dataopdateringen.&#xD;
+Under servicevinduet kan man som anvender opleve utilgængelighed på alle tjenester og afbrydelser i dataopdateringen.&#xD;
 Register: Alle&#xD;
 Service: Webservice, Filudtræk (FTP), Hændelser, Dataopdatering, Selvbetjening, Fildownload (HTTPS)&#xD;
 Status: Planlagt&#xD;
@@ -78,12 +78,14 @@ Periode slut: 1/1/0001 12:00:00 AM&#xD;
     <id>60697</id>
     <title
       type="text">EJF dataopdatering er stoppet i produktionsmiljøet</title>
-    <updated>2025-05-19T05:57:26Z</updated>
+    <updated>2025-05-19T10:20:56Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/60697" />
     <content
       type="text">Besked: EJF dataopdatering er stoppet i produktionsmiljøet
+
+19.05.2025 klokken 12:30: Problemet er løst. Der er opbygget en kø af datapakker, der er i gang med at blive indlæst.
 
 19.05.2025 klokken 07:55. EJF dataopdatering er stoppet i produktionsmiljøet. Seneste opdatering var 17.05.2025 klokken 02:15.
 
@@ -92,28 +94,6 @@ Register: Ejerfortegnelsen (EJF)&#xD;
 Service: Dataopdatering&#xD;
 Status: I gang&#xD;
 Sagsreference: 60697&#xD;
-</content>
-  </entry>
-  <entry>
-    <id>60658</id>
-    <title
-      type="text">EJF dataopdatering er stoppet i produktionsmiljøet</title>
-    <updated>2025-05-15T12:28:54Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/60658" />
-    <content
-      type="text">Besked: EJF dataopdatering er stoppet i produktionsmiljøet
-
-15.05.2025 klokken 14:30. Problemet er løst. Dataopdateringen er nu i normal drift
-
-15.05.2025 klokken 10:45. EJF dataopdatering er stoppet i produktionsmiljøet, sidste opdatering var 14.05.2025 klokken 20:33
-
-Der arbejdes på at løse problemet&#xD;
-Register: Ejerfortegnelsen (EJF)&#xD;
-Service: Dataopdatering&#xD;
-Status: Løst&#xD;
-Sagsreference: 60658&#xD;
 </content>
   </entry>
   <entry>
