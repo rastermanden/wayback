@@ -143,34 +143,4 @@ Periode start: 1/1/0001 12:00:00 AM&#xD;
 Periode slut: 1/1/0001 12:00:00 AM&#xD;
 </content>
   </entry>
-  <entry>
-    <id>62727</id>
-    <title
-      type="text">EBR Filudtræk (FTP) indeholder forældet data fra Matriklen</title>
-    <updated>2025-08-14T09:51:05Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/62727" />
-    <content
-      type="text">Besked: EBR Filudtræk (FTP) indeholder forældet data fra Matriklen
-
-14.08.2025: Problemet forventes løst ultimo september 2025.
-
-11.08.2025: EBR Filudtræk (FTP) indeholder forældet data fra Matriklen. Følgende Filudtræk (FTP) er berørt:
-
-	EBR Complete XML_HF
-	EBR Complete JSON_HF
-	EBR DeltaDaily XML_HF
-	EBR DeltaDaily JSON_HF
-	Ejendomsbeliggenhed_HF
-
-
-
-Hvis man har oprettet et abonnement på EBR  med  et af ovenstående Filudtræk (FTP), vil data ikke være opdateret. Filudtræk (FTP) for EBR af typen Simpel er opdateret og kan anvendes i stedet. Det er også muligt at benytte EBR REST tjenester.&#xD;
-Register: Ejendomsbeliggenhedsregisteret (EBR)&#xD;
-Service: Filudtræk (FTP)&#xD;
-Status: I gang&#xD;
-Sagsreference: 62727&#xD;
-</content>
-  </entry>
 </feed>
