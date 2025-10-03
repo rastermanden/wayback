@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2025-10-03T10:51:04Z</updated>
+  <updated>2025-10-03T10:50:35Z</updated>
   <entry>
     <id>64205</id>
     <title
@@ -71,26 +71,6 @@ Status: Gennemført&#xD;
 Sagsreference: 64270&#xD;
 Periode start: 1/1/0001 12:00:00 AM&#xD;
 Periode slut: 1/1/0001 12:00:00 AM&#xD;
-</content>
-  </entry>
-  <entry>
-    <id>64251</id>
-    <title
-      type="text">Forsinket opdatering af Ejerfortegnelsen og Matriklen Delta Fildownload (HTTPS)</title>
-    <updated>2025-10-03T10:51:04Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/64251" />
-    <content
-      type="text">Besked: Forsinket opdatering af Ejerfortegnelsen og Matriklen Delta Fildownload (HTTPS)
-
-01.10.2025: Data er opdateret.
-
-30.09.2025: Delta Fildownload (HTTPS) for Ejerfortegnelsen og Matriklen er ikke opdateret som planlagt natten til tirsdag. Delta Fildownload (HTTPS) bliver forventet opdateret natten til onsdag den 01.10.2025.&#xD;
-Register: Ejerfortegnelsen (EJF), Matriklen (MAT)&#xD;
-Service: Dataopdatering, Fildownload (HTTPS)&#xD;
-Status: Løst&#xD;
-Sagsreference: 64251&#xD;
 </content>
   </entry>
   <entry>
