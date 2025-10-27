@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2025-10-27T09:15:49Z</updated>
+  <updated>2025-10-27T09:18:13Z</updated>
   <entry>
     <id>64960</id>
     <title
@@ -172,7 +172,7 @@ Sagsreference: 65226&#xD;
     <id>65202</id>
     <title
       type="text">Forsinket opdatering af Delta Fildownload (HTTPS)</title>
-    <updated>2025-10-27T09:15:49Z</updated>
+    <updated>2025-10-27T09:18:00Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/65202" />
@@ -188,7 +188,7 @@ Delta Fildownload (HTTPS) er ikke opdateret som planlagt siden natten til sønda
 Delta Fildownload (HTTPS) bliver forventet opdateret natten til tirsdag den 28. oktober.&#xD;
 Register: Alle&#xD;
 Service: Dataopdatering, Fildownload (HTTPS)&#xD;
-Status: I gang&#xD;
+Status: Løst&#xD;
 Sagsreference: 65202&#xD;
 </content>
   </entry>
@@ -196,12 +196,14 @@ Sagsreference: 65202&#xD;
     <id>65212</id>
     <title
       type="text">Forsinket opdatering af Total Fildownload (HTTPS)</title>
-    <updated>2025-10-27T08:26:07Z</updated>
+    <updated>2025-10-27T09:18:13Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/65212" />
     <content
       type="text">Besked: Forsinket opdatering af Total Fildownload (HTTPS)
+
+27.10.2025 klokken 10:00: Total Fildownload (HTTPS) er blevet opdateret for alle registre. Vi beklager, hvis meddelelsen har givet anledning til forvirring.
 
 27.10.2025 klokken 09:00: Total Fildownload (HTTPS) er ikke opdateret som planlagt siden natten til søndag den 26. oktober for registrene Matriklen, GeoDanmark Vektor og VUR .
 
@@ -210,7 +212,7 @@ Total Fildownload (HTTPS) er ikke opdateret som planlagt siden natten til sønda
 Total Fildownload (HTTPS) bliver forventet opdateret natten til tirsdag den 28. oktober.&#xD;
 Register: Alle&#xD;
 Service: Dataopdatering, Fildownload (HTTPS)&#xD;
-Status: I gang&#xD;
+Status: Løst&#xD;
 Sagsreference: 65212&#xD;
 </content>
   </entry>
