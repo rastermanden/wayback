@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2025-12-10T11:25:23Z</updated>
+  <updated>2025-12-10T11:27:31Z</updated>
   <entry>
     <id>66119</id>
     <title
@@ -64,28 +64,6 @@ Register: Alle&#xD;
 Service: Filudtræk (FTP), Hændelser, Dataopdatering, Fildownload (HTTPS)&#xD;
 Status: Planlagt&#xD;
 Sagsreference: 65977&#xD;
-Periode start: 1/1/0001 12:00:00 AM&#xD;
-Periode slut: 1/1/0001 12:00:00 AM&#xD;
-</content>
-  </entry>
-  <entry>
-    <id>65978</id>
-    <title
-      type="text">Test03 og Test06 servicevindue tirsdag den 9. december fra klokken 10:00 til klokken 17:30</title>
-    <updated>2025-12-10T05:40:05Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/65978" />
-    <content
-      type="text">Besked: Test03 og Test06 servicevindue tirsdag den 9. december fra klokken 10:00 til klokken 17:30
-
-Der er planlagt servicevindue på Test03 og Test06 tirsdag den 9. december 2025 klokken 10:00 til klokken 17:30.
-
-I tidsrummet er testmiljøerne utilgængelige.&#xD;
-Register: Alle&#xD;
-Service: Webservice, Filudtræk (FTP), Hændelser, Dataopdatering, Selvbetjening, Fildownload (HTTPS)&#xD;
-Status: Gennemført&#xD;
-Sagsreference: 65978&#xD;
 Periode start: 1/1/0001 12:00:00 AM&#xD;
 Periode slut: 1/1/0001 12:00:00 AM&#xD;
 </content>
@@ -182,7 +160,7 @@ Periode slut: 1/1/0001 12:00:00 AM&#xD;
     <id>66697</id>
     <title
       type="text">Fejl ved hentning af store Fildownload Total</title>
-    <updated>2025-12-10T11:25:23Z</updated>
+    <updated>2025-12-10T11:27:31Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/66697" />
