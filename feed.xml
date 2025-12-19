@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2025-12-18T15:19:39Z</updated>
+  <updated>2025-12-19T06:45:18Z</updated>
   <entry>
     <id>66119</id>
     <title
@@ -25,69 +25,45 @@ Sagsreference: 66119&#xD;
 </content>
   </entry>
   <entry>
-    <id>67159</id>
+    <id>67397</id>
     <title
-      type="text">Test03 servicevindue torsdag den 18. december fra klokken 9:00 til klokken 12:00</title>
-    <updated>2025-12-18T11:45:23Z</updated>
+      type="text">PROD servicevindue tirsdag den 27. januar 2026 klokken 06:00 til klokken 07:00</title>
+    <updated>2025-12-19T06:39:37Z</updated>
     <link
       rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/67159" />
+      href="https://datafordeler.dk/drift/meddelelser/67397" />
     <content
-      type="text">Besked: Test03 servicevindue torsdag den 18. december fra klokken 9:00 til klokken 12:00
+      type="text">Besked: PROD servicevindue tirsdag den 27. januar 2026 klokken 06:00 til klokken 07:00
 
-Der er planlagt servicevindue på Test03 torsdag den 18. december 2025 klokken 9:00 til klokken 12:00.
+Der er planlagt servicevindue på PROD tirsdag den 27. januar 2026 klokken 06:00 til klokken 07:00.
 
-Anvendere kan i tidsrummet opleve nedetid på Fildownload, GraphQL-tjenester, Selvbetjeningen og Datafordeler Administration.&#xD;
+I tidsrummet kan anvendere ikke benytte NemLog-in i Datafordeler Administration eller Selvbetjening.&#xD;
 Register: Alle&#xD;
-Service: Webservice, Selvbetjening, Fildownload (HTTPS)&#xD;
-Status: Gennemført&#xD;
-Sagsreference: 67159&#xD;
+Service: Selvbetjening&#xD;
+Status: Planlagt&#xD;
+Sagsreference: 67397&#xD;
 Periode start: 1/1/0001 12:00:00 AM&#xD;
 Periode slut: 1/1/0001 12:00:00 AM&#xD;
 </content>
   </entry>
   <entry>
-    <id>66609</id>
+    <id>67398</id>
     <title
-      type="text">PROD servicevindue onsdag den 17. december fra klokken 17:00 til klokken 20:00</title>
-    <updated>2025-12-18T06:14:42Z</updated>
+      type="text">Test03, Test04 og Test06 servicevindue tirsdag den 27. januar 2026 klokken 07:00 til klokken 10:00</title>
+    <updated>2025-12-19T06:45:18Z</updated>
     <link
       rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/66609" />
+      href="https://datafordeler.dk/drift/meddelelser/67398" />
     <content
-      type="text">Besked: PROD servicevindue onsdag den 17. december fra klokken 17:00 til klokken 20:00
+      type="text">Besked: Test03, Test04 og Test06 servicevindue tirsdag den 27. januar 2026 klokken 07:00 til klokken 10:00
 
-18.12.2025: Servicevindue er gennemført.
+Der er planlagt servicevindue på Test03, Test04 og Test06 tirsdag den 27. januar 2026 klokken 07:00 til klokken 10:00.
 
-Der er planlagt servicevindue på PROD onsdag den 17. december 2025 klokken 17:00 til klokken 20:00.
-
-Anvendere kan i tidsrummet opleve nedetid på Fildownload, GraphQL-tjenester, Selvbetjeningen og Datafordeler Administration.&#xD;
+I tidsrummet kan anvendere ikke benytte NemLog-in i Datafordeler Administration eller Selvbetjening for testmiljøerne.&#xD;
 Register: Alle&#xD;
-Service: Webservice, Selvbetjening, Fildownload (HTTPS)&#xD;
-Status: Gennemført&#xD;
-Sagsreference: 66609&#xD;
-Periode start: 1/1/0001 12:00:00 AM&#xD;
-Periode slut: 1/1/0001 12:00:00 AM&#xD;
-</content>
-  </entry>
-  <entry>
-    <id>67160</id>
-    <title
-      type="text">Test04 servicevindue torsdag den 18. december fra klokken 13:00 til klokken 16:00</title>
-    <updated>2025-12-18T12:00:28Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/67160" />
-    <content
-      type="text">Besked: Test04 servicevindue torsdag den 18. december fra klokken 13:00 til klokken 16:00
-
-Der er planlagt servicevindue på Test04 torsdag den 18. december 2025 klokken 13:00 til klokken 16:00.
-
-Anvendere kan i tidsrummet opleve nedetid på Fildownload, GraphQL-tjenester, Selvbetjeningen og Datafordeler Administration.&#xD;
-Register: Alle&#xD;
-Service: Webservice, Selvbetjening, Fildownload (HTTPS)&#xD;
-Status: I gang&#xD;
-Sagsreference: 67160&#xD;
+Service: Selvbetjening&#xD;
+Status: Planlagt&#xD;
+Sagsreference: 67398&#xD;
 Periode start: 1/1/0001 12:00:00 AM&#xD;
 Periode slut: 1/1/0001 12:00:00 AM&#xD;
 </content>
