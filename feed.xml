@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2026-04-14T06:35:20Z</updated>
+  <updated>2026-04-14T07:51:17Z</updated>
   <entry>
     <id>71490</id>
     <title
@@ -23,6 +23,25 @@ Register: Alle&#xD;
 Service: Dokumentation&#xD;
 Status: I gang&#xD;
 Sagsreference: 71490&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>71591</id>
+    <title
+      type="text">Datafordeler.dk bliver genstartet tirsdag den 14. april klokken 10:00</title>
+    <updated>2026-04-14T07:51:17Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/71591" />
+    <content
+      type="text">Besked: Datafordeler.dk bliver genstartet tirsdag den 14. april klokken 10:00
+
+Man kan opleve, at datafordeler.dk er lidt længere tid om at svare i de minutter, det tager at genstarte webserveren.
+
+ &#xD;
+Register: Alle&#xD;
+Status: I gang&#xD;
+Sagsreference: 71591&#xD;
 </content>
   </entry>
   <entry>
