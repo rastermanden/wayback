@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2026-04-22T09:35:48Z</updated>
+  <updated>2026-04-22T10:36:32Z</updated>
   <entry>
     <id>70959</id>
     <title
@@ -33,6 +33,54 @@ Register: Skærmkortet&#xD;
 Service: Webservice, Fildownload (HTTPS)&#xD;
 Status: Løst&#xD;
 Sagsreference: 70959&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>72009</id>
+    <title
+      type="text">Version 1 og 2 af Fildownload lukker den 21. maj 2026</title>
+    <updated>2026-04-22T10:17:35Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/72009" />
+    <content
+      type="text">Besked: Version 1 og 2 af Fildownload lukker den 21. maj 2026
+
+Torsdag den 21. maj 2026 bliver tidligere versioner af Fildownload lukket.
+
+Som anvender skal du derfor benytte eller eventuelt omstille til de nyeste versioner af tjenester og filer. Det er allerede nu muligt at benytte eller omstille til de nyeste versioner.
+
+Se vejledning til, hvordan du opgraderer versioner af Fildownload, og hvilke versioner der er i drift.&#xD;
+Register: Alle&#xD;
+Service: Fildownload (HTTPS)&#xD;
+Status: Planlagt&#xD;
+Sagsreference: 72009&#xD;
+Forventet fra: 1/1/0001 12:00:00 AM&#xD;
+Forventet til: 1/1/0001 12:00:00 AM&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>72010</id>
+    <title
+      type="text">Version 1 af GraphQL lukker den 21. maj 2026</title>
+    <updated>2026-04-22T10:20:14Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/72010" />
+    <content
+      type="text">Besked: Version 1 af GraphQL lukker den 21. maj 2026
+
+Torsdag den 21. maj 2026 bliver tidligere versioner af GraphQL lukket.
+
+Som anvender skal du derfor benytte eller eventuelt omstille til de nyeste versioner af tjenester. Det er allerede nu muligt at benytte eller omstille til de nyeste versioner.
+
+Se vejledning til, hvordan du opgraderer versioner af GraphQL, og hvilke versioner der er i drift.&#xD;
+Register: Alle&#xD;
+Service: Webservice&#xD;
+Status: Planlagt&#xD;
+Sagsreference: 72010&#xD;
+Forventet fra: 1/1/0001 12:00:00 AM&#xD;
+Forventet til: 1/1/0001 12:00:00 AM&#xD;
 </content>
   </entry>
   <entry>
@@ -103,6 +151,28 @@ Periode slut: 1/1/0001 12:00:00 AM&#xD;
 </content>
   </entry>
   <entry>
+    <id>72012</id>
+    <title
+      type="text">PROD servicevindue mandag den 27. april fra klokken 17:30 til klokken 19:30</title>
+    <updated>2026-04-22T10:36:32Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/72012" />
+    <content
+      type="text">Besked: PROD servicevindue mandag den 27. april fra klokken 17:30 til klokken 19:30
+
+Der er planlagt servicevindue på PROD mandag den 27. april 2026 klokken 17:30 til klokken 19:30.
+
+Der vil i tidsrummet være nedetid på Datafordeler Administration, Fildownload (HTTPS), Filudtræk (FTP), hændelser og dataopdatering.&#xD;
+Register: Alle&#xD;
+Service: Filudtræk (FTP), Hændelser, Dataopdatering, Selvbetjening, Fildownload (HTTPS)&#xD;
+Status: Planlagt&#xD;
+Sagsreference: 72012&#xD;
+Periode start: 1/1/0001 12:00:00 AM&#xD;
+Periode slut: 1/1/0001 12:00:00 AM&#xD;
+</content>
+  </entry>
+  <entry>
     <id>71463</id>
     <title
       type="text">Test03 og Test06 servicevindue mandag den 20. april fra klokken 10:00 til klokken 17:00</title>
@@ -142,6 +212,30 @@ Register: Alle&#xD;
 Service: Webservice, Filudtræk (FTP), Hændelser, Dataopdatering, Selvbetjening, Fildownload (HTTPS)&#xD;
 Status: Planlagt&#xD;
 Sagsreference: 71464&#xD;
+Periode start: 1/1/0001 12:00:00 AM&#xD;
+Periode slut: 1/1/0001 12:00:00 AM&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>72013</id>
+    <title
+      type="text">Test03, Test04 og Test06 servicevindue onsdag den 22. april fra klokken 17:00 til klokken 02:00</title>
+    <updated>2026-04-22T10:35:30Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/72013" />
+    <content
+      type="text">Besked: Test03, Test04 og Test06 servicevindue onsdag den 22. april fra klokken 17:00 til klokken 02:00
+
+Der er planlagt servicevindue på Test03, Test04 og Test06, onsdag den 22. april fra klokken 17:00 til klokken 02:00.
+
+Test-miljøerne vil være utilgængelige i hele perioden både på webservices, Fildownload (HTTPS) og Filudtræk (FTP), samt test-miljøernes Administrationsportal, Selvbetjening og Datafordeler Administration.
+
+Dataopdatering og hændelser på test-miljøerne vil i hele tidsrummet være sat på pause. &#xD;
+Register: Alle&#xD;
+Service: Webservice, Filudtræk (FTP), Hændelser, Dataopdatering, Selvbetjening, Fildownload (HTTPS)&#xD;
+Status: Planlagt&#xD;
+Sagsreference: 72013&#xD;
 Periode start: 1/1/0001 12:00:00 AM&#xD;
 Periode slut: 1/1/0001 12:00:00 AM&#xD;
 </content>
