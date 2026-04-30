@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed
+  xmlns="http://www.w3.org/2005/Atom">
+  <title
+    type="text">Service Messages</title>
+  <subtitle
+    type="text"></subtitle>
+  <id>serviceMessages</id>
+  <updated>2026-04-30T09:38:12Z</updated>
+  <entry>
+    <id>72225</id>
+    <title
+      type="text">Test06: Nedlukning af filudtræk dags dato</title>
+    <updated>2026-04-29T07:31:58Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/72225" />
+    <content
+      type="text">Besked: Test06: Nedlukning af filudtræk (FTP) dags dato, den 28. april 2026.
+
+Alle filudtræk (FTP) lukker på Test06 i dag, den 28. april 2026, og du vil ikke længere kunne modtage og hente filudtræk (FTP) på Test06.
+
+Som anvender skal du derfor benytte Fildownload i stedet.
+
+ 
+
+ &#xD;
+Register: Alle&#xD;
+Service: Filudtræk (FTP)&#xD;
+Status: Løst&#xD;
+Sagsreference: 72225&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>72009</id>
+    <title
+      type="text">Version 1 og 2 af Fildownload lukker den 21. maj 2026</title>
+    <updated>2026-04-22T10:17:35Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/72009" />
+    <content
+      type="text">Besked: Version 1 og 2 af Fildownload lukker den 21. maj 2026
+
+Torsdag den 21. maj 2026 bliver tidligere versioner af Fildownload lukket.
+
+Som anvender skal du derfor benytte eller eventuelt omstille til de nyeste versioner af tjenester og filer. Det er allerede nu muligt at benytte eller omstille til de nyeste versioner.
+
+Se vejledning til, hvordan du opgraderer versioner af Fildownload, og hvilke versioner der er i drift.&#xD;
+Register: Alle&#xD;
+Service: Fildownload (HTTPS)&#xD;
+Status: Planlagt&#xD;
+Sagsreference: 72009&#xD;
+Forventet fra: 1/1/0001 12:00:00 AM&#xD;
+Forventet til: 1/1/0001 12:00:00 AM&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>72010</id>
+    <title
+      type="text">Version 1 af de entitetsbaserede GraphQL-tjenester lukker den 21. maj 2026</title>
+    <updated>2026-04-30T07:08:50Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/72010" />
+    <content
+      type="text">Besked: Version 1 af de entitetsbaserede GraphQL-tjenester lukker den 21. maj 2026
+
+Torsdag den 21. maj 2026 bliver tidligere versioner af de entitetsbaserede GraphQL-tjenester lukket, med enkelte undtagelser, eksempelvis bliver fleksibel opslagslogik fortsat udstillet i version 1.
+
+Som anvender skal du derfor benytte eller eventuelt omstille til de nyeste versioner af tjenester. Det er allerede nu muligt at benytte eller omstille til de nyeste versioner.
+
+Se vejledning til, hvordan du opgraderer versioner af GraphQL, og hvilke versioner der er i drift.&#xD;
+Register: Alle&#xD;
+Service: Webservice&#xD;
+Status: Planlagt&#xD;
+Sagsreference: 72010&#xD;
+Forventet fra: 1/1/0001 12:00:00 AM&#xD;
+Forventet til: 1/1/0001 12:00:00 AM&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>71466</id>
+    <title
+      type="text">PROD servicevindue tirsdag den 5. maj fra klokken 17:00 til klokken 23:00</title>
+    <updated>2026-04-10T11:24:38Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/71466" />
+    <content
+      type="text">Besked: PROD servicevindue tirsdag den 5. maj fra klokken 17:00 til klokken 23:00
+
+Der er planlagt servicevindue på PROD tirsdag den 5. maj 2026 klokken 17:00 til klokken 23:00.
+
+Der vil i tidsrummet være nedetid på webservices, Fildownload (HTTPS), Filudtræk (FTP), hændelser, dataopdatering og på Selvbetjeningsportal, Administrationsportal og Datafordeler Administration.&#xD;
+Register: Alle&#xD;
+Service: Webservice, Filudtræk (FTP), Hændelser, Dataopdatering, Selvbetjening, Fildownload (HTTPS)&#xD;
+Status: Planlagt&#xD;
+Sagsreference: 71466&#xD;
+Periode start: 1/1/0001 12:00:00 AM&#xD;
+Periode slut: 1/1/0001 12:00:00 AM&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>72007</id>
+    <title
+      type="text">Datafordeler.dk flytter og kan være utilgængelig i perioder torsdag den 30. april</title>
+    <updated>2026-04-30T09:38:12Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/72007" />
+    <content
+      type="text">Besked: Datafordeler.dk flytter og kan være utilgængelig i perioder torsdag den 30. april
+
+30.04.2026 klokken 11:30: Datafordeler.dk er flyttet til ny webserver, og servicevinduet er afsluttet.
+
+Torsdag den 30. april 2026 fra klokken 08:00 til 24:00 er der servicevindue på datafordeler.dk. Anvenderne kan opleve, at datafordeler.dk i perioder ikke er tilgængelig inden for tidsrummet. Det er kun datafordeler.dk, der flytter til en anden server. Selve Datafordeleren er ikke berørt af servicevinduet og vil være tilgængelig som normalt.&#xD;
+Register: Alle&#xD;
+Status: Gennemført&#xD;
+Sagsreference: 72007&#xD;
+Periode start: 4/29/2026 6:00:00 AM&#xD;
+Periode slut: 4/29/2026 10:00:00 AM&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>71764</id>
+    <title
+      type="text">PROD servicevindue onsdag den 29. april fra klokken 17:00 til klokken 19:00</title>
+    <updated>2026-04-30T05:12:57Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/71764" />
+    <content
+      type="text">Besked: PROD servicevindue onsdag den 29. april fra klokken 17:00 til klokken 19:00
+
+Der er planlagt servicevindue på PROD onsdag den 29. april 2026 klokken 17:00 til klokken 19:00.
+
+Der kan i tidsrummet være nedetid på Fildownload (HTTPS), og påvirkning på Filudtræk (FTP).
+Efter servicevinduet er Filudtræk (FTP) med rasterdata og punktsky fra GeoDanmark Ortofoto, Danmarks Højdemodel, Skærmkortet og Danmarks Topografiske Kortværk udfaset og ikke længere tilgængelig på Datafordeleren. VI henviser i stedet til Fildownload.
+
+I løbet af den 29. april 2026 bliver de nævnte filudtræk deaktiveret. Har du et abonnement på et filudtræk med rasterdata eller punktsky vil du modtage en mail om at dit abonnement er midlertidigt deaktiveret, selvom det permanent er deaktiveret. Herefter kan du ikke længere se abonnementet på din brugerside på Datafordeler.dk eller Selvbetjeningsportalen. 
+
+Se mere om Fildownload på Datafordeleren&#xD;
+Register: Danmarks Højdemodel, Danmarks Topografiske Kortværk (DTK), GeoDanmark Ortofoto, Skærmkortet&#xD;
+Status: Gennemført&#xD;
+Sagsreference: 71764&#xD;
+Periode start: 1/1/0001 12:00:00 AM&#xD;
+Periode slut: 1/1/0001 12:00:00 AM&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>72135</id>
+    <title
+      type="text">PROD servicevindue torsdag den 21. maj fra klokken 17:00 til klokken 21:00</title>
+    <updated>2026-04-27T11:32:09Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/72135" />
+    <content
+      type="text">Besked: PROD servicevindue torsdag den 21. maj fra klokken 17:00 til klokken 21:00
+
+Der er planlagt servicevindue på PROD torsdag den 21. maj 2026 klokken 17:00 til klokken 21:00.
+
+Anvendere kan i tidsrummet opleve nedetid på webservices, GraphQL-tjenester og Fildownload (HTTPS), samt på Datafordeler Administration.
+
+Dataopdatering og hændelser vil i hele tidsrummet være sat på pause. 
+
+ &#xD;
+Register: Alle&#xD;
+Service: Webservice, Hændelser, Dataopdatering, Selvbetjening, Fildownload (HTTPS)&#xD;
+Status: Planlagt&#xD;
+Sagsreference: 72135&#xD;
+Periode start: 1/1/0001 12:00:00 AM&#xD;
+Periode slut: 1/1/0001 12:00:00 AM&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>71464</id>
+    <title
+      type="text">Test04 servicevindue onsdag den 29. april fra klokken 10:00 til klokken 17:00</title>
+    <updated>2026-04-30T05:13:04Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/71464" />
+    <content
+      type="text">Besked: Test04 servicevindue onsdag den 29. april fra klokken 10:00 til klokken 17:00
+
+Der er planlagt servicevindue på Test04 onsdag den 29. april 2026 klokken 10:00 til klokken 17:00.
+
+Der vil i tidsrummet være nedetid i testmiljøet på webservices, Fildownload (HTTPS), Filudtræk (FTP), hændelser, dataopdatering og på testmiljøets Selvbetjeningsportal, Administrationsportal og Datafordeler Administration.&#xD;
+Register: Alle&#xD;
+Service: Webservice, Filudtræk (FTP), Hændelser, Dataopdatering, Selvbetjening, Fildownload (HTTPS)&#xD;
+Status: Gennemført&#xD;
+Sagsreference: 71464&#xD;
+Periode start: 1/1/0001 12:00:00 AM&#xD;
+Periode slut: 1/1/0001 12:00:00 AM&#xD;
+</content>
+  </entry>
+</feed>
