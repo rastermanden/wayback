@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2026-06-01T09:45:10Z</updated>
+  <updated>2026-06-01T11:15:32Z</updated>
   <entry>
     <id>72350</id>
     <title
@@ -35,6 +35,26 @@ Register: Det Centrale Personregister (CPR)&#xD;
 Service: Dataopdatering&#xD;
 Status: Løst&#xD;
 Sagsreference: 72350&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>74122</id>
+    <title
+      type="text">Servicevindue onsdag den 3. juni på Datafordelerens dokumentation</title>
+    <updated>2026-06-01T11:15:32Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/74122" />
+    <content
+      type="text">Besked: Servicevindue onsdag den 3. juni på Datafordelerens dokumentation
+
+Onsdag den 3. juni i tidsrummet 13:00 til 15:00 kan man opleve, at Datafordelerens dokumentation ikke er tilgængelig i korte perioder.&#xD;
+Register: Alle&#xD;
+Service: Dokumentation&#xD;
+Status: Planlagt&#xD;
+Sagsreference: 74122&#xD;
+Periode start: 1/1/0001 12:00:00 AM&#xD;
+Periode slut: 1/1/0001 12:00:00 AM&#xD;
 </content>
   </entry>
   <entry>
