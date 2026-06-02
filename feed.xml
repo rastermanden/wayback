@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2026-06-02T06:31:02Z</updated>
+  <updated>2026-06-02T08:02:00Z</updated>
   <entry>
     <id>72350</id>
     <title
@@ -151,7 +151,7 @@ Periode slut: 1/1/0001 12:00:00 AM&#xD;
     <id>74001</id>
     <title
       type="text">Test06 servicevindue tirsdag den 2. juni fra klokken 10:00 til klokken 16:00</title>
-    <updated>2026-05-29T12:19:58Z</updated>
+    <updated>2026-06-02T08:02:00Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/74001" />
@@ -163,7 +163,7 @@ Der er planlagt servicevindue på Test06 tirsdag den 2. juni fra klokken 10:00 t
 Der vil i tidsrummet være nedetid i testmiljøet på webservices, Fildownload (HTTPS), dataopdatering, hændelser og på testmiljøets Datafordeler Administration.&#xD;
 Register: Alle&#xD;
 Service: Webservice, Hændelser, Dataopdatering, Selvbetjening&#xD;
-Status: Planlagt&#xD;
+Status: I gang&#xD;
 Sagsreference: 74001&#xD;
 Periode start: 1/1/0001 12:00:00 AM&#xD;
 Periode slut: 1/1/0001 12:00:00 AM&#xD;
