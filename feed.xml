@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2026-06-01T11:15:32Z</updated>
+  <updated>2026-06-02T06:31:02Z</updated>
   <entry>
     <id>72350</id>
     <title
@@ -107,7 +107,7 @@ Periode slut: 1/1/0001 12:00:00 AM&#xD;
     <id>73170</id>
     <title
       type="text">PROD servicevindue mandag den 1. juni fra klokken 17:30 til klokken 19:30</title>
-    <updated>2026-05-13T08:49:37Z</updated>
+    <updated>2026-06-02T06:31:02Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/73170" />
@@ -119,7 +119,7 @@ Der er planlagt servicevindue på PROD mandag den 1. juni 2026 klokken 17:30 til
 Der vil i tidsrummet være nedetid på Datafordeler Administration, Fildownload (HTTPS), Filudtræk (FTP), hændelser og dataopdatering.&#xD;
 Register: Alle&#xD;
 Service: Filudtræk (FTP), Hændelser, Dataopdatering, Selvbetjening, Fildownload (HTTPS)&#xD;
-Status: Planlagt&#xD;
+Status: Gennemført&#xD;
 Sagsreference: 73170&#xD;
 Periode start: 1/1/0001 12:00:00 AM&#xD;
 Periode slut: 1/1/0001 12:00:00 AM&#xD;
