@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed
+  xmlns="http://www.w3.org/2005/Atom">
+  <title
+    type="text">Service Messages</title>
+  <subtitle
+    type="text"></subtitle>
+  <id>serviceMessages</id>
+  <updated>2026-06-02T10:55:17Z</updated>
+  <entry>
+    <id>72350</id>
+    <title
+      type="text">CPR påbegynder nær realtidsopdatering på Datafordeleren den 19. maj 2026.</title>
+    <updated>2026-05-19T09:09:03Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/72350" />
+    <content
+      type="text">Besked: CPR påbegynder nær realtidsopdatering på Datafordeleren den 19. maj 2026.
+
+19.05.2026 klokken 9.30: CPR er overgået til nær realtidsopdatering på GraphQL-tjenester og Fildownload.
+
+Nær realtidsopdateringer bliver anvendt på CPR GraphQL-tjenester og Fildownload. REST tjenester vil ikke modtage opdateringer i nær realtid.
+
+Anvendere skal ikke foretage ændringer i den tekniske integration til Datafordeleren som følge af nær realtidsopdatering.
+
+Bemærk at nær realtidsopdatering er anvendt på Test06 fra den 23. april 2026.
+
+Læs mere om CPR nær realtidsopdatering i CPR’s egen dokumentation 
+
+Se også CPR GraphQL
+
+CPR Fildownload til offentlige myndigheder på Datafordeleren&#xD;
+Register: Det Centrale Personregister (CPR)&#xD;
+Service: Dataopdatering&#xD;
+Status: Løst&#xD;
+Sagsreference: 72350&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>74173</id>
+    <title
+      type="text">WFS tjenester med services.datafordeler.dk i url lukker 1. juli 2026</title>
+    <updated>2026-06-02T10:55:17Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/74173" />
+    <content
+      type="text">Besked: WFS tjenester med services.datafordeler.dk i url lukker 1. juli 2026
+
+Onsdag den 1. juli 2026 lukker Datafordeleren for adgang med webbruger/tjenestebruger til ikke-moderniserede WFS tjenester på Snowflake servere, jævnfør tidligere meddelelse om udfasning medio 2026. Det betyder, at WFS tjenester med services.datafordeler.dk i url fra denne dato ikke længere er tilgængelige.
+
+Du kan fortsat benytte entitetsbaserede WFS tjenester på Datafordeleren. Læs mere i dokumentation om WFS på Datafordeleren
+
+Læs mere om udfasningen af ikke-moderniserede tjenester&#xD;
+Register: Alle&#xD;
+Service: Webservice&#xD;
+Status: Planlagt&#xD;
+Sagsreference: 74173&#xD;
+Forventet fra: 1/1/0001 12:00:00 AM&#xD;
+Forventet til: 1/1/0001 12:00:00 AM&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>74113</id>
+    <title
+      type="text">PROD servicevindue onsdag den 24. juni fra klokken 17:00 til klokken 22:00</title>
+    <updated>2026-06-01T09:45:10Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/74113" />
+    <content
+      type="text">Besked: PROD servicevindue onsdag den 24. juni fra klokken 17:00 til klokken 22:00
+
+Der er planlagt servicevindue på PROD onsdag den 24. juni 2026 klokken 17:00 til klokken 22:00.
+
+Anvendere kan i tidsrummet opleve nedetid på webservices, GraphQL-tjenester, Fildownload (HTTPS) og Filudtræk (FTP), samt på Datafordeler Administration.
+
+Dataopdatering og hændelser vil i hele tidsrummet være sat på pause. &#xD;
+Register: Alle&#xD;
+Service: Webservice, Filudtræk (FTP), Hændelser, Dataopdatering, Selvbetjening, Fildownload (HTTPS)&#xD;
+Status: Planlagt&#xD;
+Sagsreference: 74113&#xD;
+Periode start: 1/1/0001 12:00:00 AM&#xD;
+Periode slut: 1/1/0001 12:00:00 AM&#xD;
+</content>
+  </entry>
+</feed>
