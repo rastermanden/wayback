@@ -109,28 +109,6 @@ Periode slut: 1/1/0001 12:00:00 AM&#xD;
 </content>
   </entry>
   <entry>
-    <id>76550</id>
-    <title
-      type="text">PROD servicevindue mandag den 3. august fra klokken 17:30 til klokken 19:30</title>
-    <updated>2026-08-04T05:19:33Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/76550" />
-    <content
-      type="text">Besked: PROD servicevindue mandag den 3. august fra klokken 17:30 til klokken 19:30
-
-Der er planlagt servicevindue på PROD mandag den 3. august 2026 klokken 17:30 til klokken 19:30.
-
-Der vil i tidsrummet være nedetid på Datafordeler Administration, Fildownload (HTTPS), Filudtræk (FTP), hændelser og dataopdatering.&#xD;
-Register: Alle&#xD;
-Service: Webservice, Filudtræk (FTP), Hændelser, Dataopdatering, Selvbetjening, Fildownload (HTTPS)&#xD;
-Status: Gennemført&#xD;
-Sagsreference: 76550&#xD;
-Periode start: 1/1/0001 12:00:00 AM&#xD;
-Periode slut: 1/1/0001 12:00:00 AM&#xD;
-</content>
-  </entry>
-  <entry>
     <id>76866</id>
     <title
       type="text">Manglende opdatering</title>
