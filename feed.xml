@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2026-08-28T05:19:51Z</updated>
+  <updated>2026-08-31T07:21:41Z</updated>
   <entry>
     <id>75014</id>
     <title
@@ -39,30 +39,6 @@ Sagsreference: 75014&#xD;
 </content>
   </entry>
   <entry>
-    <id>77132</id>
-    <title
-      type="text">PROD servicevindue torsdag den 27. august fra klokken 16:00 til klokken 23:00 </title>
-    <updated>2026-08-28T05:19:51Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/77132" />
-    <content
-      type="text">Besked: PROD servicevindue torsdag den 27. august fra klokken 16:00 til klokken 23:00 
-
-Der er planlagt servicevindue på PROD torsdag den 27. august 2026 klokken 16:00 til klokken 23:00. 
-
-Anvendere kan i tidsrummet klokken 18:00 til klokken 23:00 opleve længere svartid eller nedetid på webservices, GraphQL-tjenester og Fildownload (HTTPS), samt på Datafordeler Administration. 
-
-Dataopdatering og hændelser vil i tidsrummet fra klokken 16:00 til klokken 18:00 være sat på pause. &#xD;
-Register: Alle&#xD;
-Service: Webservice, Hændelser, Dataopdatering, Selvbetjening, Fildownload (HTTPS)&#xD;
-Status: Gennemført&#xD;
-Sagsreference: 77132&#xD;
-Periode start: 1/1/0001 12:00:00 AM&#xD;
-Periode slut: 1/1/0001 12:00:00 AM&#xD;
-</content>
-  </entry>
-  <entry>
     <id>77093</id>
     <title
       type="text">PROD servicevindue mandag den 31. august fra klokken 17:30 til klokken 19:30</title>
@@ -80,6 +56,28 @@ Register: Alle&#xD;
 Service: Webservice, Filudtræk (FTP), Hændelser, Dataopdatering, Selvbetjening, Fildownload (HTTPS)&#xD;
 Status: Planlagt&#xD;
 Sagsreference: 77093&#xD;
+Periode start: 1/1/0001 12:00:00 AM&#xD;
+Periode slut: 1/1/0001 12:00:00 AM&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>78280</id>
+    <title
+      type="text">Test06 servicevindue tirsdag den 1. september fra klokken 10:00 til klokken 14:30</title>
+    <updated>2026-08-31T07:21:41Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/78280" />
+    <content
+      type="text">Besked: Test06 servicevindue tirsdag den 1. september fra klokken 10:00 til klokken 14:30
+
+Der er planlagt servicevindue på Test06 tirsdag den 1. september 2026 fra klokken 10:00 til klokken 14:30.
+
+Der vil i tidsrummet være nedetid i testmiljøet på webservices, Fildownload (HTTPS), dataopdatering og hændelser.&#xD;
+Register: Alle&#xD;
+Service: Webservice, Hændelser, Dataopdatering, Fildownload (HTTPS)&#xD;
+Status: Planlagt&#xD;
+Sagsreference: 78280&#xD;
 Periode start: 1/1/0001 12:00:00 AM&#xD;
 Periode slut: 1/1/0001 12:00:00 AM&#xD;
 </content>
