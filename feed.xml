@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2026-10-07T11:22:31Z</updated>
+  <updated>2026-10-08T06:57:56Z</updated>
   <entry>
     <id>79758</id>
     <title
@@ -105,7 +105,7 @@ Sagsreference: 79308&#xD;
     <id>79582</id>
     <title
       type="text">PROD servicevindue onsdag den 7. oktober fra klokken 17:00 til klokken 22:00</title>
-    <updated>2026-09-30T12:58:12Z</updated>
+    <updated>2026-10-08T04:48:34Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/79582" />
@@ -117,7 +117,7 @@ Der er planlagt servicevindue på PROD onsdag den 7. oktober 2026 klokken 17:00 
 Anvendere kan i tidsrummet opleve nedetid på webservices, GraphQL-tjenester og Fildownload (HTTPS), samt på Datafordeler Administration.&#xD;
 Register: Alle&#xD;
 Service: Webservice, Selvbetjening, Fildownload (HTTPS)&#xD;
-Status: Planlagt&#xD;
+Status: Gennemført&#xD;
 Sagsreference: 79582&#xD;
 Periode start: 1/1/0001 12:00:00 AM&#xD;
 Periode slut: 1/1/0001 12:00:00 AM&#xD;
@@ -198,6 +198,24 @@ Periode slut: 1/1/0001 12:00:00 AM&#xD;
 Register: Alle&#xD;
 Status: I gang&#xD;
 Sagsreference: 78219&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>79911</id>
+    <title
+      type="text">Forsinket opdatering af delta Fildownload for alle registre</title>
+    <updated>2026-10-08T06:57:56Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/79911" />
+    <content
+      type="text">Besked: Forsinket opdatering af delta Fildownload for alle registre
+
+08.10.2026: Der er ikke genereret delta Fildownloads på tværs af alle registre natten til torsdag 08.10.2026 på grund af en fejl i netværket. Alle delta Fildownloads bliver forventet opdateret natten til fredag den 09.10.2026. &#xD;
+Register: Alle&#xD;
+Service: Fildownload (HTTPS)&#xD;
+Status: I gang&#xD;
+Sagsreference: 79911&#xD;
 </content>
   </entry>
 </feed>
