@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2026-10-09T09:45:13Z</updated>
+  <updated>2026-10-09T15:04:00Z</updated>
   <entry>
     <id>79758</id>
     <title
@@ -82,12 +82,16 @@ Sagsreference: 75014&#xD;
     <id>79926</id>
     <title
       type="text">Forsinkelser på opdateringer i CPR Fildownload og GraphQL</title>
-    <updated>2026-10-08T15:25:23Z</updated>
+    <updated>2026-10-09T15:03:53Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/79926" />
     <content
       type="text">Besked: Forsinkelser på opdateringer i CPR Fildownload og GraphQL
+
+09.10.2026 klokken 17:00: Der vil fortsat være påvirkning på CPR Fildownload den kommende uge.
+
+CPR Fildownload forventes at være genereret og med fuldt opdaterede data mandag den 19.10.2026.
 
 08.10.2026 klokken 17:00: Grundet den store mængde CPR dataopdateringer vil der ikke blive genereret CPR Fildownload i nat. Vi opdaterer meddelelsen med en ny status fredag. Denne opdatering forventes også at indeholde en status for, hvornår CPR-data på Datafordeleren er fuldt opdaterede.
 
@@ -286,6 +290,24 @@ Register: Bygnings- og Boligregisteret (BBR), Danmarks Adresseregister (DAR), Ge
 Service: Fildownload (HTTPS)&#xD;
 Status: I gang&#xD;
 Sagsreference: 79936&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>79987</id>
+    <title
+      type="text">Forsinkelser i EJF Custom Fildownload</title>
+    <updated>2026-10-09T15:04:00Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/79987" />
+    <content
+      type="text">Besked: 09.10.2026 klokken 17:00: Grundet den store mængde CPR dataopdateringer og forsinkelser i CPR Fildownload er der påvirkning på EJF Custom Fildownload, som ikke er genereret og fortsat vil være påvirket den kommende uge.
+
+EJF Custom Fildownload forventes at være genereret og med fuldt opdaterede data mandag den 19.10.2026.&#xD;
+Register: Ejerfortegnelsen (EJF)&#xD;
+Service: Fildownload (HTTPS)&#xD;
+Status: I gang&#xD;
+Sagsreference: 79987&#xD;
 </content>
   </entry>
 </feed>
