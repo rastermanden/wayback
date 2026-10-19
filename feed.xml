@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2026-10-19T12:38:08Z</updated>
+  <updated>2026-10-19T13:47:54Z</updated>
   <entry>
     <id>79922</id>
     <title
@@ -252,12 +252,14 @@ Periode slut: 1/1/0001 12:00:00 AM&#xD;
     <id>80149</id>
     <title
       type="text">Datafordeleren opdaterer servercertifikat på PROD 2. november klokken 17:00 til klokken 22:00</title>
-    <updated>2026-10-15T12:02:25Z</updated>
+    <updated>2026-10-19T13:47:54Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/80149" />
     <content
       type="text">Besked: Datafordeleren opdaterer servercertifikat på PROD 2. november 2026 klokken 17:00 til klokken 22:00
+
+19.10.2026 klokken 15:45: Anvendere får en fejl 404 Ved forsøg på download af intermediate certifikatet på DigiCert Knowledge Base. Midlertidigt kan certifkatet hentes: Certifikatudbyder (fra 2. november 2026) - Bemærk
 
 Der er planlagt servicevindue på PROD mandag den 2. november 2026 fra klokken 17:00 til klokken 22:00.
 
