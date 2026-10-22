@@ -6,7 +6,7 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2026-10-21T10:13:34Z</updated>
+  <updated>2026-10-22T05:18:00Z</updated>
   <entry>
     <id>79922</id>
     <title
@@ -178,7 +178,7 @@ Periode slut: 1/1/0001 12:00:00 AM&#xD;
     <id>79907</id>
     <title
       type="text">Test04 og Test06 servicevindue onsdag den 21. oktober fra klokken 17:00 til klokken 02:00</title>
-    <updated>2026-10-08T09:01:11Z</updated>
+    <updated>2026-10-22T05:18:00Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/79907" />
@@ -192,7 +192,7 @@ Test-miljøerne vil være utilgængelige i hele perioden både på webservices, 
 Dataopdatering og hændelser på test-miljøerne vil i hele tidsrummet være sat på pause.&#xD;
 Register: Alle&#xD;
 Service: Webservice, Filudtræk (FTP), Hændelser, Dataopdatering, Selvbetjening, Fildownload (HTTPS)&#xD;
-Status: Planlagt&#xD;
+Status: Gennemført&#xD;
 Sagsreference: 79907&#xD;
 Periode start: 1/1/0001 12:00:00 AM&#xD;
 Periode slut: 1/1/0001 12:00:00 AM&#xD;
@@ -226,46 +226,6 @@ Register: Alle&#xD;
 Service: Hændelser, Dataopdatering, Fildownload (HTTPS)&#xD;
 Status: Planlagt&#xD;
 Sagsreference: 79887&#xD;
-Periode start: 1/1/0001 12:00:00 AM&#xD;
-Periode slut: 1/1/0001 12:00:00 AM&#xD;
-</content>
-  </entry>
-  <entry>
-    <id>80148</id>
-    <title
-      type="text">Datafordeleren opdaterer servercertifikat på Test04 og Test06 20. oktober 2026</title>
-    <updated>2026-10-21T06:49:24Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/80148" />
-    <content
-      type="text">Besked: Datafordeleren opdaterer servercertifikat på Test04 og Test06 20. oktober 2026
-
-19.10.2026 klokken 12:15: Anvendere får en fejl 404 Ved forsøg på download af intermediate certifikatet på DigiCert Knowledge Base. Midlertidigt kan certifkatet hentes: Certifikatudbyder (fra 2. november 2026) - Bemærk
-
-Der er planlagt servicevindue på Datafordelerens testmiljøer tirsdag den 20. oktober fra klokken 9:00 til klokken 15:00.
-
-Anvendere kan i tidsrummet opleve længere svartider på testmiljøernes tjenester.
-
-I servicevinduet udskifter Datafordeleren servercertifikat. Det nye certifikat har ny certifikatudbyder, DigiCert i stedet for Sectigo. Certifikater kan findes på DigiCerts Knowledge Base.
-
-Anvendere med restriktiv infrastruktur skal sikre, at deres trust store er konfigureret til at anerkende den nye certifikatkæde. Det vil sikre uforstyrret drift og undgå forbindelsesfejl.
-
-Information om det nye certifikat:
-
-	GeoTrust Global G2 TLS EUR RSA4096 SHA384 2023 CA1
-
-
-
- 
-
-Hvad skal du gøre?
-
-Verificér, at jeres trust store er opdateret og inkluderer ovenstående certifikater. Hvis de ikke er trustet, vil jeres kald til Datafordelerens services på testmiljøer fejle efter skiftet.&#xD;
-Register: Alle&#xD;
-Service: Selvbetjening&#xD;
-Status: Gennemført&#xD;
-Sagsreference: 80148&#xD;
 Periode start: 1/1/0001 12:00:00 AM&#xD;
 Periode slut: 1/1/0001 12:00:00 AM&#xD;
 </content>
