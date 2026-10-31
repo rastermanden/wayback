@@ -6,12 +6,12 @@
   <subtitle
     type="text"></subtitle>
   <id>serviceMessages</id>
-  <updated>2026-10-27T13:51:48Z</updated>
+  <updated>2026-10-30T13:15:00Z</updated>
   <entry>
     <id>79922</id>
     <title
       type="text">Filudtræk kun tilgængelige i Selvbetjeningen efter 29. oktober</title>
-    <updated>2026-10-08T08:26:25Z</updated>
+    <updated>2026-10-30T13:15:00Z</updated>
     <link
       rel="alternate"
       href="https://datafordeler.dk/drift/meddelelser/79922" />
@@ -23,8 +23,26 @@ Efter 29. oktober 2026 er det ikke længere muligt at oprette abonnement på Fil
 Filudtræk bliver udfaset pr. 15. januar 2027, og vi anbefaler at hente data via Fildownload og GraphQL med API-key eller OAuth.&#xD;
 Register: Alle&#xD;
 Service: Filudtræk (FTP)&#xD;
-Status: I gang&#xD;
+Status: Løst&#xD;
 Sagsreference: 79922&#xD;
+</content>
+  </entry>
+  <entry>
+    <id>80567</id>
+    <title
+      type="text">Uregelmæssig adgang til datafordeler.dk og dokumentation</title>
+    <updated>2026-10-30T12:18:38Z</updated>
+    <link
+      rel="alternate"
+      href="https://datafordeler.dk/drift/meddelelser/80567" />
+    <content
+      type="text">Besked: Uregelmæssig adgang til datafordeler.dk og dokumentation
+
+30.10.2026 klokken 10:30: Adgang til datafordeler.dk og dokumentation for Datafordeleren kan være uregelmæssig på grund af problemer i netværk. Statens IT arbejder på at stabilisere netværket. &#xD;
+Register: Alle&#xD;
+Service: Dokumentation&#xD;
+Status: I gang&#xD;
+Sagsreference: 80567&#xD;
 </content>
   </entry>
   <entry>
@@ -111,28 +129,6 @@ Register: Alle&#xD;
 Service: Webservice, Selvbetjening, Fildownload (HTTPS)&#xD;
 Status: Planlagt&#xD;
 Sagsreference: 80261&#xD;
-Periode start: 1/1/0001 12:00:00 AM&#xD;
-Periode slut: 1/1/0001 12:00:00 AM&#xD;
-</content>
-  </entry>
-  <entry>
-    <id>79909</id>
-    <title
-      type="text">PROD servicevindue mandag den 26. oktober fra klokken 17:30 til klokken 19:30</title>
-    <updated>2026-10-27T06:12:22Z</updated>
-    <link
-      rel="alternate"
-      href="https://datafordeler.dk/drift/meddelelser/79909" />
-    <content
-      type="text">Besked: PROD servicevindue mandag den 26. oktober fra klokken 17:30 til klokken 19:30
-
-Der er planlagt servicevindue på PROD mandag den 26. oktober 2026 klokken 17:30 til klokken 19:30.
-
-Der vil i tidsrummet være nedetid på Datafordeler Administration, Fildownload (HTTPS), Filudtræk (FTP), hændelser og dataopdatering.&#xD;
-Register: Alle&#xD;
-Service: Filudtræk (FTP), Hændelser, Dataopdatering, Selvbetjening, Fildownload (HTTPS)&#xD;
-Status: Gennemført&#xD;
-Sagsreference: 79909&#xD;
 Periode start: 1/1/0001 12:00:00 AM&#xD;
 Periode slut: 1/1/0001 12:00:00 AM&#xD;
 </content>
